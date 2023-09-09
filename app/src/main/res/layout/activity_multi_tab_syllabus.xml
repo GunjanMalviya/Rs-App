@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/toolbar" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty_dp"
+            app:tabIndicatorColor="@color/theme_purple"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="auto"
+            app:tabBackground="@color/pure_white"
+            android:elevation="@dimen/zero_dp"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Small"
+            app:tabSelectedTextColor="@color/theme_purple"
+            app:tabTextColor="@color/grey_900" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:elevation="@dimen/ten_dp"
+       app:cardElevation="@dimen/ten_dp"
+       android:id="@+id/buy_now"
+       android:visibility="gone"
+       android:layout_alignParentBottom="true"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/eighty_dp"
+           android:background="@color/white_color"
+           android:orientation="horizontal"
+           android:padding="@dimen/ten_dp">
+
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.8"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:id="@+id/tv_pricing"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:text="@string/Rs"
+                       android:textColor="@color/theme_centre_pink"
+                       android:textSize="@dimen/sixteen_dp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:id="@+id/tv_dis_pricing"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginStart="@dimen/ten_dp"
+                       android:text="@string/Rs"
+                       android:textColor="@color/black_dark"
+                       android:textSize="14sp" />
+               </LinearLayout>
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="@dimen/thirty_dp"
+                   android:layout_gravity="bottom"
+                   android:background="@drawable/ed_background"
+                   android:backgroundTint="@color/green_200"
+                   android:gravity="center"
+                   android:padding="@dimen/five_dp"
+                   android:text="62% OFF"
+                   android:textColor="@color/black_color"
+                   android:textSize="14sp" />
+           </LinearLayout>
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_height="45dp"
+               android:layout_gravity="center_vertical"
+               android:layout_weight="1.2"
+               android:background="@drawable/ed_background"
+               android:backgroundTint="@color/theme_centre_pink"
+               android:text="BUY NOW"
+               android:textColor="@color/white_color" />
+
+       </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

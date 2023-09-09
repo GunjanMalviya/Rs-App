@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/ten_sp"
+    android:id="@+id/card_preexam_subcat"
+    app:cardBackgroundColor="@color/white_color"
+
+    android:layout_margin="@dimen/five_dp"
+    app:cardCornerRadius="@dimen/five_dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="3"
+
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="@dimen/fifty_dp"
+                android:id="@+id/profile_image"
+
+                android:src="@drawable/ic_accout"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_toolbar_title"
+                    android:layout_toRightOf="@+id/imgBack"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:text="@string/title"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:paddingLeft="@dimen/ten_sp"
+                    android:paddingRight="@dimen/five_dp"
+
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/black_color"
+
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/tv_toolbar_date"
+                    android:layout_toRightOf="@+id/imgBack"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+
+                    android:text="@string/title"
+                    android:textSize="@dimen/forteen_sp"
+                    android:paddingLeft="@dimen/ten_sp"
+                    android:paddingRight="@dimen/five_dp"
+
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/overlay_dark_60"
+
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sixteen_sp"
+            android:id="@+id/txt_title_doubt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offline_pay_rule1"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:textColor="@color/black_color"
+            android:paddingRight="@dimen/five_dp"
+            android:textSize="@dimen/forteen_sp"
+            android:id="@+id/txt_descrip"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/ten_sp"
+    android:paddingTop="@dimen/ten_sp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="@dimen/twenty_five_sp"
+        android:layout_height="@dimen/twenty_five_sp"
+        android:src="@drawable/ic_outline_mode_comment_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer"
+        android:paddingRight="@dimen/five_dp"
+        android:paddingLeft="@dimen/ten_sp"
+        android:textSize="@dimen/forteen_sp"
+        android:textColor="@color/overlay_dark_70"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(0)"
+        android:textSize="@dimen/forteen_sp"
+        android:textColor="@color/overlay_dark_70"/>
+
+</LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

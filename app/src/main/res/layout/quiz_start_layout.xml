@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white_color"
+
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/five_dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.5"
+                        android:text="Q.1"
+                        android:fontFamily="@font/cousine"
+                        android:layout_marginLeft="@dimen/ten_sp"
+                        android:textSize="@dimen/eighteen_sp"
+                        android:id="@+id/txtQuesNo"
+                        android:layout_marginTop="@dimen/ten_sp"
+                        android:layout_marginBottom="@dimen/ten_sp"
+                        android:textColor="@color/black_color"
+                        android:textStyle="bold"/>
+
+                        <ImageView
+                            android:id="@+id/img_rating"
+                            android:layout_width="@dimen/twenty_five_sp"
+                            android:layout_height="27dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:src="@drawable/ic_star_border_black_24dp"
+                             />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/two_dp"
+                        android:layout_marginTop="@dimen/ten_sp"
+                        android:background="@color/grey_20"/>
+
+                    <TextView
+                        android:id="@+id/txtQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grey_50"
+                        android:fontFamily="@font/poppins"
+                        android:padding="@dimen/ten_sp"
+                        android:text="@string/offline_pay_rule1"
+                        android:textColor="@color/black_color"
+
+                        android:textSize="@dimen/sixteen_sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/twenty_sp"
+                    android:padding="@dimen/ten_sp"
+                    android:orientation="vertical">
+
+
+                        <CheckBox
+                            android:id="@+id/txt_bg_A"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                           android:padding="@dimen/ten_sp"
+                            android:layout_margin="@dimen/five_dp"
+                            android:text="Yes"
+                            android:button="@drawable/check_flat_selector"
+                            android:background="@drawable/radio_flat_selector"
+                            android:textColor="@color/black_color"
+                            android:textSize="@dimen/sixteen_sp"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/txt_bg_B"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                           android:padding="@dimen/ten_sp"
+                            android:layout_margin="@dimen/five_dp"
+                            android:text="Maybe"
+                            android:button="@drawable/check_flat_selector"
+                            android:background="@drawable/radio_flat_selector"
+
+                            android:textColor="@color/black_color"
+                            android:textSize="@dimen/sixteen_sp"
+                          />
+
+                        <CheckBox
+                            android:id="@+id/txt_bg_C"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                          android:layout_margin="@dimen/five_dp"
+                            android:padding="@dimen/ten_sp"
+                            android:background="@drawable/radio_flat_selector"
+                            android:text="No"
+                            android:button="@drawable/check_flat_selector"
+                            android:textColor="@color/black_color"
+                            android:textSize="@dimen/sixteen_sp"
+                            />
+                        <CheckBox
+                            android:id="@+id/txt_bg_D"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/five_dp"
+                            android:padding="@dimen/ten_sp"
+                            android:text="No"
+
+                            android:background="@drawable/radio_flat_selector"
+                            android:button="@drawable/check_flat_selector"
+
+                            android:textColor="@color/black_color"
+                            android:textSize="@dimen/eighteen_sp"
+                            />
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/five_dp"
+                    android:layout_marginTop="@dimen/ten_sp"
+                    android:background="@color/grey_20"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>

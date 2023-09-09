@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_blue_yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/ten_dp">
+
+        <ImageView
+            android:layout_width="@dimen/one_hundred_ten_dp"
+            android:layout_height="@dimen/one_hundred_ten_dp"
+            android:layout_gravity="center"
+            android:src="@drawable/my_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:text="Register"
+            android:textAllCaps="true"
+
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/twenty_sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/twenty_sp"
+
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/twenty_sp"
+            android:gravity="center"
+
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radio_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/theme_purple"
+                android:checked="true"
+                android:text="@string/mobile"
+                android:textColor="@color/black_color" />
+
+            <RadioButton
+                android:id="@+id/radio_email"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty_five_sp"
+                android:buttonTint="@color/theme_purple"
+                android:text="@string/email"
+                android:textColor="@color/black_color" />
+
+        </RadioGroup>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_marginRight="@dimen/twenty_five_dp"
+            app:cardCornerRadius="@dimen/ten_dp"
+            app:cardElevation="@dimen/ten_sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/ed_register_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_color"
+                    android:digits="1234567890"
+                    android:hint="Enter Mobile Number"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="@dimen/fifteen_dp"
+                    android:textColor="@color/black_color"
+
+                    android:textColorHint="@color/overlay_dark_60"
+                    android:textSize="@dimen/eighteen_sp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tv_register_now"
+            android:layout_width="@dimen/one_fifty_dp"
+            android:layout_height="@dimen/fifty_dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/thirty_sp"
+            android:layout_marginRight="@dimen/thirty_sp"
+            android:background="@drawable/btn_rounded_primary"
+            android:gravity="center"
+            android:paddingTop="@dimen/five_dp"
+            android:paddingBottom="@dimen/five_dp"
+            android:text="continue"
+            android:textAllCaps="true"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/eighteen_sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_allready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/thirty_sp"
+        android:layout_marginRight="@dimen/thirty_sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fifty_dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/five_dp"
+            android:paddingBottom="@dimen/five_dp"
+            android:text="@string/all_ready_account"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/fifteen_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fifty_dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="@dimen/five_dp"
+            android:paddingTop="@dimen/five_dp"
+            android:paddingBottom="@dimen/five_dp"
+            android:text="@string/login"
+            android:textColor="@color/theme_purple"
+            android:textSize="@dimen/fifteen_sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

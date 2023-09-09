@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white_color"
+            app:cardCornerRadius="@dimen/five_dp"
+            app:cardElevation="@dimen/five_dp"
+            android:id="@+id/card_liveVideo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="8"
+                    android:id="@+id/nav_prof"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/userImage_imageView"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:padding="@dimen/five_dp"
+                        android:layout_height="@dimen/sixty_dp"
+                        app:civ_border_width="@dimen/two_dp"
+                        app:civ_border_color="@color/theme_purple"
+                        android:src="@drawable/ic_baseline_account_circle_24" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6.5"
+android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/ten_sp"
+                            android:text="JK"
+                            android:textColor="@color/black_color"
+                            android:textSize="@dimen/forteen_sp"
+                            android:id="@+id/txt_userNm"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/spacing_medium"
+                            android:paddingLeft="@dimen/ten_sp"
+                            android:text="@string/time"
+                            android:textColor="@color/blue_grey_800"
+                            android:textSize="@dimen/twelve_sp"
+                                android:id="@+id/txt_time"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/banner_image"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/slider04"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_height="@dimen/one_forty_dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/one_forty_dp"
+                    android:background="@color/grey_200"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:id="@+id/lllout_quiz"
+                    android:orientation="vertical">
+                <ImageView
+
+                    android:layout_width="@dimen/fifty_dp"
+                  android:src="@drawable/ic_alarm_clock"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_height="@dimen/fifty_dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:padding="@dimen/six_dp"
+                        android:text="@string/quiz_start"
+                        android:textStyle="bold"
+                        android:id="@+id/text_quiz_title"
+                        android:textSize="@dimen/forteen_sp"
+                        android:textColor="@color/black_color"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/learn_quiz_bg"
+                        android:text="@string/quiz_start"
+                        android:paddingLeft="@dimen/fifteen_sp"
+                        android:paddingRight="@dimen/fifteen_sp"
+                        android:paddingTop="@dimen/six_dp"
+                        android:textAllCaps="true"
+                        android:id="@+id/quiz_start"
+                        android:paddingBottom="@dimen/six_dp"
+                        android:textSize="@dimen/fifteen_sp"
+                        android:textColor="@color/white_color"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:padding="@dimen/ten_sp"
+
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time"
+                        android:fontFamily="@font/poppins"
+                        android:layout_weight="1.8"
+                        android:id="@+id/txt_title"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold"
+
+
+                        android:textColor="@color/black_color"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:layout_margin="@dimen/ten_sp"
+
+                    android:paddingLeft="@dimen/ten_sp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="0 upvote"
+
+
+                        android:fontFamily="@font/poppins"
+                        android:layout_weight="1"
+
+                        android:textSize="@dimen/twelve_sp"
+                        android:id="@+id/txt_upvotes"
+
+
+                        android:textColor="@color/overlay_dark_60"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="0 comments"
+                        android:fontFamily="@font/poppins"
+                        android:layout_weight="2"
+                        android:id="@+id/txt_comments"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/twelve_sp"
+
+
+
+                        android:textColor="@color/overlay_dark_60"
+                        />
+
+                </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/overlay_dark_30"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                 android:weightSum="4"
+                    android:layout_marginBottom="@dimen/five_dp"
+                    android:padding="@dimen/three_dp"
+                    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="2"
+    android:id="@+id/llout_upvotes"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:layout_height="@dimen/twenty_five_sp"
+                        android:src="@drawable/ic_like_n"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="@dimen/thirteen_sp"
+                        android:textColor="@color/overlay_dark_50"
+                        android:text="UPVOTE"/>
+</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:id="@+id/llout_comments"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:layout_height="@dimen/twenty_five_sp"
+                        android:src="@drawable/ic_outline_mode_comment_24"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/thirteen_sp"
+                        android:textColor="@color/overlay_dark_50"
+                        android:fontFamily="@font/poppins"
+                        android:text="COMMENT"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

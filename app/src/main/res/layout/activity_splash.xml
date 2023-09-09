@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/my_logo" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/cousine"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/twenty_five_dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/cousine"
+        android:gravity="center"
+        android:layout_margin="@dimen/ten_dp"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/forty_four_dp"
+        android:text="ICAR, CUET(BHU), BCECE, UPCATET, JCECE, JET, JCECE, MPPAT Entrance Exam"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/eighteen_sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/white_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8"
+android:id="@+id/nav_prof"
+        android:paddingLeft="@dimen/five_dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+
+            android:layout_height="80dp"
+                app:civ_border_width="@dimen/two_dp"
+            app:civ_border_color="@color/theme_purple"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5.2"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="JK"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sixteen_sp"
+                android:id="@+id/txt_userNm"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/spacing_medium"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="@string/app_title"
+                android:textColor="@color/blue_grey_800"
+                android:textSize="@dimen/forteen_sp"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_arrowright"
+
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_dp"
+        android:background="@color/black_dark"/>
+</LinearLayout>

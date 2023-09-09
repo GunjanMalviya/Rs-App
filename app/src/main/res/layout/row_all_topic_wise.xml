@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    app:cardBackgroundColor="@color/white_color"
+    app:cardCornerRadius="@dimen/five_dp"
+    app:cardElevation="@dimen/five_dp"
+    app:cardUseCompatPadding="true"
+  >
+
+   <!-- <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/white">-->
+
+        <LinearLayout
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="@dimen/ten_sp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:weightSum="5"
+                        android:paddingTop="@dimen/five_dp"
+                    android:paddingBottom="@dimen/five_dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/sno"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/myriadpro_bold"
+                        android:gravity="center"
+                        android:layout_marginLeft="@dimen/ten_sp"
+
+                        android:text="@string/title"
+
+
+
+                        android:textColor="@color/theme_purple"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/fifteen_sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/pNAme"
+                        android:layout_width="0dp"
+                        android:layout_weight="4.0"
+                        android:layout_marginLeft="@dimen/five_dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center|left"
+
+
+                        android:text="Product Name"
+
+                        android:textStyle="bold"
+
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/fifteen_sp"></TextView>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/thirty_sp"
+                        android:layout_weight="0.5"
+
+                        android:src="@drawable/ic_arrowright"
+                        android:layout_gravity="right"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

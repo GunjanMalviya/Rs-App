@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    >
+<include layout="@layout/pdf_toolbar1"></include>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/sixty_dp"
+    android:layout_height="match_parent">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_margin="@dimen/ten_sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+        android:id="@+id/relay_progress"
+        android:background="@drawable/primary_oval"
+        android:backgroundTint="@color/white_color"
+android:visibility="gone"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progressBar"
+
+            android:layout_width="@dimen/hundred_dp"
+            android:layout_height="@dimen/hundred_dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+
+
+            android:progress="0"
+            android:secondaryProgress="100"
+
+            android:progressDrawable="@drawable/custom_progressbar_drawable"
+             />
+
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/twenty_sp"
+
+            android:textColor="@color/red_800"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            />
+</RelativeLayout>
+</RelativeLayout>

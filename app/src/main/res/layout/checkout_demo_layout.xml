@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_50"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="@dimen/five_dp"
+
+        app:cardBackgroundColor="@color/blue_50"
+        app:cardElevation="@dimen/ten_sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P A Y M E N T"
+            android:layout_gravity="center"
+            android:padding="@dimen/ten_sp"
+            android:textSize="@dimen/twenty_sp"
+            android:textColor="@color/theme_purple"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llout"
+        android:layout_marginTop="@dimen/sixty_dp"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/ten_sp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginLeft="@dimen/fifteen_sp"
+            android:layout_marginRight="@dimen/fifteen_sp"
+            android:id="@+id/card_editProfile"
+            app:cardBackgroundColor="@color/white_color"
+            app:cardElevation="@dimen/ten_sp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/two_hundred_dp"
+                    android:layout_height="@dimen/two_hundred_dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginBottom="@dimen/fifty_dp"
+                    android:src="@drawable/payemt_img"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/ten_sp"
+
+        android:layout_marginTop="@dimen/two_fifty_dp"
+        app:cardBackgroundColor="@color/white_color"
+        app:cardElevation="@dimen/ten_sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/ten_sp"
+            android:background="@drawable/bottom_sheet_background_offline"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/ten_sp"
+                android:weightSum="2"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_name"
+
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textColor="@color/black_color"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.3"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_name"
+                    android:textStyle="bold"
+                    android:id="@+id/txt_course"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textColor="@color/black_color"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/ten_sp"
+                android:layout_marginRight="@dimen/ten_sp"
+                android:layout_marginTop="@dimen/ten_sp"
+                android:layout_marginBottom="@dimen/hundred_dp"
+                android:weightSum="2"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:layout_marginTop="@dimen/five_dp"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textColor="@color/black_color"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textStyle="bold"
+                    android:id="@+id/txt_amount"
+                    android:layout_marginTop="@dimen/five_dp"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textColor="@color/black_color"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".3"
+                    android:layout_gravity="start"
+
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/payment_icon"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/twenty_sp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/btn_pay"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/hundred_dp"
+        android:layout_below="@id/llout"
+        app:cardBackgroundColor="@color/theme_purple"
+        app:cardElevation="@dimen/ten_sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:layout_gravity="center"
+            android:paddingRight="@dimen/thirty_sp"
+            android:paddingTop="@dimen/ten_sp"
+            android:paddingLeft="@dimen/thirty_sp"
+            android:paddingBottom="@dimen/ten_sp"
+            android:textSize="@dimen/twenty_sp"
+            android:textColor="@color/white_color"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="235dp"
+        app:cardCornerRadius="@dimen/twelve_sp"
+        app:cardElevation="@dimen/ten_sp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+     android:drawableLeft="@drawable/ic_outline_info_24"
+        android:textStyle="bold"
+        android:paddingRight="@dimen/ten_sp"
+        android:paddingLeft="@dimen/ten_sp"
+       android:paddingTop="@dimen/two_dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/two_dp"
+        android:drawablePadding="@dimen/five_dp"
+        android:textSize="@dimen/forteen_sp"
+        android:textColor="@color/yellow_900"
+       />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

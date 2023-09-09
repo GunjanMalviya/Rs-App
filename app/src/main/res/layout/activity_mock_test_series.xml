@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/prepare_exam"
+    tools:context="com.rankerspoint.academy.Activity.MockTestSeries">
+    <include layout="@layout/toolbar"></include>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/five_dp"
+        android:background="@color/overlay_dark_20"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten_sp"
+        android:layout_marginLeft="@dimen/five_dp"
+        android:id="@+id/recy_moreclasses"
+
+        android:orientation="horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/recy_mock_test"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/hundred_dp"
+        android:id="@+id/lnr_layout"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/no_data"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Record Found !!"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:textSize="@dimen/twenty_sp"
+            android:textColor="@color/blue_grey_900"/>
+    </LinearLayout>
+
+
+</LinearLayout>

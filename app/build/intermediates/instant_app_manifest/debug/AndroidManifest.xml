@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rankerspoint.academy"
+    android:targetSandboxVersion="2"
+    android:versionCode="32"
+    android:versionName="10.2" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- //<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" tools:node="remove" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" tools:node="remove"></uses-permission> -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- // <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" -->
+    <!-- tools:ignore="ScopedStorage" /> -->
+    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> -->
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data
+                android:mimeType="*/*"
+                android:scheme="*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data
+                android:host="pay"
+                android:mimeType="*/*"
+                android:scheme="upi" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+
+            <data android:mimeType="*/*" />
+        </intent>
+    </queries>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowAudioPlaybackCapture="false"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SubjectActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.GoExamMentorPost"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ViewAllCouse_SubCategory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ViewAllFeeQuizListDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Free_View_AllVideo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.GetHomeAllResults"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ViewAll_QuizTestSeries"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MocktestViewAnswerWebView"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ResultWebView"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MockTestWebView"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SaveNotesAllPdfandNotes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.EditCommentMentor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.WebViewDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MentorCommentReply"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MentorCommentHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MentorPostSingleTestDescription"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MentorPost"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.LiveClassesVideo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.LiveClassesListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.PaymentSuccessfully"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.VideoSeriesList"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.YourExamsList"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.YourPdfNotesOffline"
+            android:exported="false" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.PdfViewDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.DailyNewsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.DailyGK"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ForgetPassword"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.VideoSeries"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.HomePdfNotesCategory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.HomeNotesPdf"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.TopicQuizIndividual"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.TopicWisePdf"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.EmailRegister"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.PaymentCheckOut"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ViewMockTestSeries"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.PdfReaderFile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.OfflineVideoList"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ExoplayerOffline"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MockQuestionAttempts"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MockSeriesListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MockTestSeries"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ExoYoutPlayer"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.EmbadedPlayer"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Otp_Verification"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.GetAllResults"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ViewAnswerKey"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Mobile_Registration"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.AllQuestionAttempt"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.ExamSeries"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Results"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.YourProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SingleDoubtDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.AllDoubtsCourse"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MyDoubts"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Doubts_Topic"
+            android:exported="false"
+            android:screenOrientation="portrait" /> <!-- <activity -->
+        <!-- android:name=".Activity.YoutubePlayerClasses" -->
+        <!-- android:configChanges="orientation" -->
+        <!-- android:exported="false" -->
+        <!-- android:screenOrientation="landscape" /> -->
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Indiviual_Topic"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SyllabusSingle"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MultiTabSyllabus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.YoutubePlayerLiveClasses"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SingleCourseDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.GetAllCourseSubCategory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.No_Internet_Conn"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SubCategoryClass"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Settings"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.SignUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.MyProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.PrePareExam"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rankerspoint.academy.Activity.Dashboard"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_WIOWLoUYoFNRDh" /> <!-- android:value="rzp_test_Ak8EOYClho3ZDJ" /> -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/my_logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/red_500" /> <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_channel_id" -->
+        <!-- android:value="@string/default_notification_channel_id" /> -->
+        <!-- <service android:name="com.eyeedu.educationapp.notifications.MyFirebaseInstanceIdService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.rankerspoint.academy.fileprovider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.plugin.googlepay_all"
+            android:value="com.razorpay.RzpGpayMerged" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.rankerspoint.academy.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.rankerspoint.academy.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

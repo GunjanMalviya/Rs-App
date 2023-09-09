@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_sheet_background"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/share_via"
+    android:textColor="@color/black_color"
+    android:textSize="@dimen/sixteen_sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_dp"
+            android:layout_marginTop="@dimen/ten_sp"
+
+            android:background="@color/overlay_dark_30"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:layout_marginTop="@dimen/thirty_sp"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/twenty_sp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/sixty_three_dp"
+                android:layout_height="@dimen/sixty_three_dp"
+                android:layout_marginRight="@dimen/twenty_sp"
+                android:src="@drawable/facebook_icon"
+                android:id="@+id/img_facebook"/>
+            <ImageView
+                android:layout_width="@dimen/sixty_dp"
+                android:layout_height="@dimen/sixty_dp"
+                android:src="@drawable/instagram_icon"
+                android:layout_marginRight="@dimen/twenty_sp"
+                android:padding="@dimen/four_dp"
+                android:id="@+id/img_instagram"/>
+            <ImageView
+                android:layout_width="@dimen/sixty_dp"
+                android:layout_height="@dimen/sixty_dp"
+                android:src="@drawable/ic_whatsapp"
+                android:padding="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/twenty_sp"
+
+                android:id="@+id/img_Whatsapp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,230 @@
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-agra"}`} component={PackersMoversAgra} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chennai"}`} component={PackersMoversChennai} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ahmedabad"}`} component={PackersMoversAhmedabad} />
+
+import PackersMoversBandra from './pages/process/citywise/PackersMoversBandra';
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bandra"}`} component={PackersMoversBandra} />
+
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-baner-pune"}`} component={PackersMoversBanerPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-belgaum"}`} component={PackersMoversBelgaum} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bengaluru"}`} component={PackersMoversBengaluru} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bhavnagar"}`} component={PackersMoversBhavnagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bhopal"}`} component={PackersMoversBhopal} />
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bhubaneswar"}`} component={PackersMoversBhubaneswar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chandigarh"}`} component={PackersMoversChandigarh} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-madhapur-hyderabad"}`} component={PackersMoversMadhapurHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-cuttack"}`} component={PackersMoversCuttack} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chandanagar-hyderabad"}`} component={PackersMoversChandanagarHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-dehradun"}`} component={PackersMoversDehradun} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kandivali"}`} component={PackersMoversKandivali} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-delhi"}`} component={PackersMoversDelhi} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-gachibowli-hyderabad"}`} component={PackersMoversGachibowliHyderabad } />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-faridabad"}`} component={PackersMoversFaridabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-mulund"}`} component={PackersMoversMulund} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-pimpri-pune"}`} component={PackersMoversPimpriPune} />
+
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ghaziabad"}`} component={PackersMoversGhaziabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-goa"}`} component={PackersMoversGoa} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kondapur-hyderabad"}`} component={PackersMoversKondapurHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-dadar"}`} component={PackersMoversDadar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-gulbarga"}`} component={PackersMoversGulbarga} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-gurgaon"}`} component={PackersMoversGurgaon} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chembur"}`} component={PackersMoversChembur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hosapete"}`} component={PackersMoversHosapete} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-borivali"}`} component={PackersMoversBorivali} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-miyapur-hyderabad"}`} component={PackersMoversMiyapurHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-miraroad"}`} component={PackersMoversMiraRoad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-indore"}`} component={PackersMoversIndore} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-btm-layout"}`} component={PackersMoversBTMLayout} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jabalpur"}`} component={PackersMoversJabalpur} />
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-navrangpura-ahmedabad"}`} component={PackersMoversNavrangpuraAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jaipur"}`} component={PackersMoversJaipur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-satellite-ahmedabad"}`} component={PackersMoversSatelliteAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jalandhar"}`} component={PackersMoversJalandhar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-koramangala"}`} component={PackersMoversKoramangala} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jamnagar"}`} component={PackersMoversJamnagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jamshedpur"}`} component={PackersMoversJamshedpur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-agra-whitefield"}`} component={PackersMoversAgraWhitefield} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bopal-ahmedabad"}`} component={PackersMoversBopalAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jodhpur"}`} component={PackersMoversJodhpur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-electronic-city"}`} component={PackersMoversElectronicCity } />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kanpur"}`} component={PackersMoversKanpur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kochi"}`} component={PackersMoversKochi} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kolkata"}`} component={PackersMoversKolkata} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-banashankari"}`} component={PackersMoversBanashankari} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-saudagar-pune"}`} component={PackersMoversSaudagarPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-lucknow"}`} component={PackersMoversLucknow} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-indiranagar"}`} component={PackersMoversIndiranagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-pashan-pune"}`} component={PackersMoversPashanPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ludhiana"}`} component={PackersMoversLudhiana} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-mangalore"}`} component={PackersMoversMangalore} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kalyani-nagar-pune"}`} component={PackersMoversKalyaniNagarPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-meerut"}`} component={PackersMoversMeerut} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-krpuram"}`} component={PackersMoversKRPuram} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-mumbai"}`} component={PackersMoversMumbai} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-mysore"}`} component={PackersMoversMysore} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bannerghatta-road"}`} component={PackersMoversBannerghattaRoad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kharadi-pune"}`} component={PackersMoversKharadiPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-nagpur"}`} component={PackersMoversNagpur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-nashik"}`} component={PackersMoversNashik} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-navi-mumbai"}`} component={PackersMoversNaviMumbai} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-noida"}`} component={PackersMoversNoida} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-dighi-pune"}`} component={PackersMoversDighiPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-patna"}`} component={PackersMoversPatna} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-satara"}`} component={PackersMoversSatara} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-raipur"}`} component={PackersMoversRaipur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-rajkot"}`} component={PackersMoversRajkot} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ranchi"}`} component={PackersMoversRanchi} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-baramati-maharashtra"}`} component={PackersMoversBaramatiMaharashtra} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-surat"}`} component={PackersMoversSurat} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-udaipur"}`} component={PackersMoversUdaipur} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-andheri"}`} component={PackersMoversAndheri} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-vadodara"}`} component={PackersMoversVadodara} />
+
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-vijayawada"}`} component={PackersMoversVijayawada} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-visakhapatnam"}`} component={PackersMoversVisakhapatnam} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bhandup"}`} component={PackersMoversBhandup} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ghatkopar"}`} component={PackersMoversGhatkopar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-goregaon"}`} component={PackersMoversGoregaon} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-kukatpally-hyderabad"}`} component={PackersMoversKukatpallyHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-malad"}`} component={PackersMoversMalad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-manikonda-hyderabad"}`} component={PackersMoversManikondaHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-ahmednagar"}`} component={PackersMoversAhmednagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-attapur-hyderabad"}`} component={PackersMoversAttapurHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-banaswadi"}`} component={PackersMoversBanaswadi} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-banjaraHills-hyderabad"}`} component={PackersMoversBanjaraHillsHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-bommanahalli"}`} component={PackersMoversBommanahalli} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chandkheda-ahmedabad"}`} component={PackersMoversChandkhedaAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-chinchwad-pune"}`} component={PackersMoversChinchwadPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-dilsukhnagar-hyderabad"}`} component={PackersMoversDilsukhnagarHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-dombivli"}`} component={PackersMoversDombivli} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hebbal"}`} component={PackersMoversHebbal} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hinjawadi-pune"}`} component={PackersMoversHinjawadiPune } />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hitechCity-hyderabad"}`} component={PackersMoversHitechCityHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hsr-layout"}`} component={PackersMoversHSRLayout} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-balanagar-hyderabad"}`} component={PackersMoversBalanagarHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-hyderabad"}`} component={PackersMoversHyderabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jayanagar"}`} component={PackersMoversJayanagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-jp-nagar"}`} component={PackersMoversJPNagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-khopoli-mumbai"}`} component={PackersMoverskhopoliMumbai} />
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-koregaon-pune"}`} component={PackersMoversKoregaonPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-lonavla"}`} component={PackersMoversLonavla} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-maninagar-ahmedabad"}`} component={PackersMoversManinagarAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-marathahalli"}`} component={PackersMoversMarathahalli} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-sarkhej-ahmedabad"}`} component={PackersMoversSarkhejAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-vejalpur-ahmedabad"}`} component={PackersMoversVejalpurAhmedabad} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-vijayanagar"}`} component={PackersMoversVijayanagar} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-vimanNagar-pune"}`} component={PackersMoversVimanNagarPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-wagholi-pune"}`} component={PackersMoversWagholiPune} />
+
+<Route path={`${process.env.PUBLIC_URL + "/packers-and-movers-wakad-pune"}`} component={PackersMoversWakadPune} />
+
+

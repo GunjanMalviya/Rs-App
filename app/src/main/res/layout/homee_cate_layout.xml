@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/ten_sp"
+    android:id="@+id/card_preexam_subcat"
+    app:cardBackgroundColor="@color/white_color"
+
+    android:layout_margin="@dimen/five_dp"
+    app:cardCornerRadius="@dimen/five_dp"
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/ten_sp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="@dimen/five_dp"
+                android:src="@drawable/ic_course"
+                android:layout_marginRight="@dimen/ten_sp"
+                android:layout_marginLeft="@dimen/ten_sp"
+                android:layout_marginTop="@dimen/ten_sp"
+                android:id="@+id/imageLogo"
+                android:layout_gravity="center"
+                android:elevation="@dimen/ten_sp"
+
+                android:layout_weight="1"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+
+                android:textSize="@dimen/forteen_sp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/ten_sp"
+                android:id="@+id/txtTitleExam"
+
+                android:layout_gravity="center"
+                android:textColor="@color/blue_grey_900"
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

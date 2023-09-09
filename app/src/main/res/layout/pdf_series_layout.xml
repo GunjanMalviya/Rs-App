@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+app:cardCornerRadius="@dimen/five_dp"
+    app:cardElevation="@dimen/five_dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/card_preexam_subcat"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white_color"
+            android:padding="@dimen/ten_sp"
+            android:id="@+id/pdf_download"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/eighty_dp"
+                android:layout_height="@dimen/eighty_dp"
+                android:padding="@dimen/five_dp"
+                android:src="@drawable/ic_pdf_file"
+                android:layout_margin="@dimen/ten_sp"
+                android:id="@+id/imageLogo"
+                android:layout_gravity="center"
+                android:elevation="@dimen/ten_sp"
+
+                android:layout_weight="1"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/ten_sp"
+              android:background="@color/overlay_dark_20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:drawableRight="@drawable/ic_baseline_arrow_downward_24"
+                android:textSize="@dimen/forteen_sp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/five_dp"
+                android:id="@+id/txtTitleExam"
+
+                android:layout_gravity="center"
+                android:textColor="@color/black_color"
+                ></TextView>
+
+        </LinearLayout>
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="@dimen/sixty_dp"
+        android:layout_height="@dimen/sixty_dp"
+        android:background="@drawable/ribbon"
+        android:layout_marginLeft="-5dp"
+        android:backgroundTint="@color/amber_50"
+        android:layout_marginTop="-5dp"
+        android:rotation="-45">
+        <TextView
+
+            android:text="@string/paid"
+            android:textStyle="bold"
+            android:id="@+id/txt_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fifteen_sp"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:textSize="@dimen/fifteen_sp"
+
+            android:textColor="@color/theme_purple"
+
+            />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

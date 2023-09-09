@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    tools:context="com.rankerspoint.academy.Activity.Doubts_Topic">
+    <include layout="@layout/doubttoolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fifteen_sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_doubt"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/eighteen_sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty_dp"
+            android:hint="@string/doubt_title"
+            android:textSize="@dimen/sixteen_sp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:background="@drawable/shape_box"
+            android:textColor="@color/black_color"
+            android:paddingLeft="@dimen/five_dp"
+            android:id="@+id/edt_doubt_title"
+            android:inputType="text"
+            android:textColorHint="@color/overlay_dark_50"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_description"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/twenty_five_sp"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/eighteen_sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_description_text"
+            android:textSize="@dimen/sixteen_sp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:background="@drawable/shape_box"
+            android:textColor="@color/black_color"
+            android:paddingLeft="@dimen/five_dp"
+            android:inputType="textMultiLine"
+            android:gravity="top|left"
+            android:paddingTop="@dimen/five_dp"
+            android:id="@+id/edt_add_description"
+            android:minLines="6"
+            android:maxLines="6"
+
+            android:textColorHint="@color/overlay_dark_50"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doubt_type"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/twenty_five_sp"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/eighteen_sp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_centerVertical="true" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:textColor="@color/black_color"
+                android:buttonTint="@color/theme_purple"
+                android:text="@string/tech_issue" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black_color"
+                android:buttonTint="@color/theme_purple"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_rel_doubt" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:buttonTint="@color/theme_purple"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                android:text="@string/sub_gen_doubt" />
+        </RadioGroup>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fifty_dp"
+    android:weightSum="3"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:visibility="visible"
+    android:id="@+id/linearlayout_camera"
+    android:layout_marginTop="@dimen/seventy_dp"
+    android:background="@drawable/rounded_skip"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="@dimen/thirty_sp"
+        android:layout_height="@dimen/thirty_sp"
+      app:tint="@color/white_color"
+        android:src="@drawable/camera"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_image"
+
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/sixteen_sp"
+
+        android:paddingLeft="@dimen/ten_sp"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/forty_dp"
+            android:weightSum="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/linearlayout_cancel"
+            android:layout_marginTop="@dimen/seventy_dp"
+            android:backgroundTint="@color/blue_grey_50"
+            android:background="@drawable/rounded_skip"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_img"
+    android:layout_weight="2.5"
+
+                android:textColor="@color/overlay_dark_40"
+                android:textSize="@dimen/sixteen_sp"
+
+                android:paddingLeft="@dimen/fifteen_sp"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/twenty_five_sp"
+                app:tint="@color/overlay_dark_40"
+                android:layout_weight="0.5"
+android:layout_marginRight="@dimen/ten_sp"
+                android:id="@+id/close_image"
+                android:layout_gravity="center|right"
+                android:src="@drawable/ic_baseline_close_24"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

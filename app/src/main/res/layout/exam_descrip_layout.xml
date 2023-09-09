@@ -1,0 +1,233 @@
+<RelativeLayout android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+
+    android:id="@+id/rblcard"
+
+
+
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbl"
+     >
+
+    <androidx.cardview.widget.CardView
+
+
+        android:id="@+id/card_preexam_subcat"
+        app:cardBackgroundColor="@color/white_color"
+
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+
+        app:cardElevation="@dimen/ten_sp"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ android:layout_marginTop="@dimen/twenty_sp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expre_date"
+
+            android:textSize="@dimen/sixteen_sp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginLeft="@dimen/thirty_sp"
+            android:layout_marginRight="@dimen/fifty_dp"
+            android:id="@+id/txtTitleexam"
+
+            android:layout_gravity="center"
+            android:textColor="@color/black_color"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expre_date"
+
+            android:textSize="@dimen/forteen_sp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginLeft="@dimen/thirty_sp"
+            android:layout_marginRight="@dimen/fifty_dp"
+            android:id="@+id/txtTitleexpireDate"
+
+            android:layout_gravity="center"
+            android:textColor="@color/overlay_dark_70"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dp"
+            android:text="@string/title"
+
+            android:gravity="center"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:layout_marginRight="@dimen/twenty_sp"
+            android:layout_marginLeft="@dimen/twenty_sp"
+            android:background="@color/overlay_dark_20"
+
+            android:layout_gravity="center"
+            android:textColor="@color/blue_grey_900"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/twenty_sp"
+                android:layout_marginRight="@dimen/twenty_sp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/questions"
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2"
+
+                    android:paddingRight="@dimen/five_dp"
+                    android:text="@string/time"
+                    android:id="@+id/txtTotalQuest"
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty_sp"
+                android:layout_marginRight="@dimen/twenty_sp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/total_mark"
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2"
+
+                    android:paddingRight="@dimen/five_dp"
+                    android:id="@+id/txttotalMark"
+                    android:text="@string/time"
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty_sp"
+                android:layout_marginRight="@dimen/twenty_sp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.0"
+                    android:text="@string/time"
+                    android:paddingRight="@dimen/five_dp"
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2.0"
+
+                    android:id="@+id/txt_duration"
+                    android:text="@string/no"
+
+                    android:textColor="@color/overlay_dark_70"
+                    android:textSize="@dimen/forteen_sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_dp"
+                android:layout_marginTop="@dimen/ten_sp"
+                android:background="@color/overlay_dark_20" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_attempt"
+
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_marginTop="-45dp"
+        android:layout_gravity="center"
+    android:layout_below="@+id/rbl"
+        android:layout_height="45dp"
+        android:background="@drawable/btnpay"
+        android:elevation="15dp"
+
+        android:textSize="@dimen/sixteen_sp"
+        android:textColor="@color/white_color"
+android:textStyle="bold"
+
+        android:text="@string/attempts"
+
+        android:paddingRight="@dimen/five_dp"
+        android:drawableRight="@drawable/ic_outline_arrow_forward_24"/>
+
+</RelativeLayout>

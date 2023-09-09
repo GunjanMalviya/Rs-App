@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/white_color"
+    android:contentInsetEnd="@dimen/zero_dp"
+    android:contentInsetRight="@dimen/zero_dp"
+    android:contentInsetStart="@dimen/zero_dp"
+    app:contentInsetEnd="@dimen/zero_dp"
+    app:contentInsetLeft="@dimen/zero_dp"
+    app:contentInsetRight="@dimen/zero_dp"
+    app:contentInsetStart="@dimen/zero_dp"
+    android:titleMarginStart="@dimen/fifteen_dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            app:tint="@color/black_dark"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"/>
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_toRightOf="@+id/imgBack"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="xy"
+            android:textSize="@dimen/eighteen_sp"
+            android:paddingLeft="@dimen/ten_sp"
+            android:paddingRight="@dimen/five_dp"
+            android:layout_marginRight="@dimen/twenty_dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black_color"
+
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/imgPdf"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            app:tint="@color/overlay_dark_50"
+            android:src="@drawable/ic_outline_picture_as_pdf_24"/>
+
+        <ImageView
+            android:id="@+id/imgCalender"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="@dimen/five_dp"
+            android:src="@drawable/ic_baseline_date_range_24"
+            app:tint="@color/overlay_dark_50" />
+        <ImageView
+            android:id="@+id/imgFilter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/thirty_sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="@dimen/six_dp"
+            android:src="@drawable/filter"
+            app:tint="@color/overlay_dark_70" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

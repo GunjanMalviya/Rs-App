@@ -1,0 +1,73 @@
+package com.rankerspoint.academy.Adapter;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.rankerspoint.academy.R;
+
+import java.util.ArrayList;
+
+public class BannerAdapter extends RecyclerView.Adapter<BannerAdapter.BannerImage> {
+
+
+    private Context context;
+    private ArrayList<Integer> images;
+
+    public BannerAdapter(Context context, ArrayList<Integer> images) {
+        this.context = context;
+        this.images = images;
+    }
+
+    @NonNull
+    @Override
+    public BannerAdapter.BannerImage onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
+
+        View view = LayoutInflater.from(context).inflate(R.layout.image_layout_today, parent, false);
+        return new BannerImage(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull BannerAdapter.BannerImage holder, int position) {
+//        Log.e("tag", "onBindViewHolder: " + images.get(position));
+
+
+      //  picasso.load(images.get(position)).error(R.mipmap.ic_launcher).into(holder.img);
+
+
+
+       // Picasso.with(context).load(images.get(position)).error(R.mipmap.ic_launcher).into(holder.img);
+
+        holder.img.setImageResource(images.get(position));
+
+    }
+
+    @Override
+    public int getItemCount() {
+        if (images.size() > 0) {
+            return images.size();
+        } else {
+            return 0;
+        }
+
+    }
+
+    public static class BannerImage extends RecyclerView.ViewHolder {
+
+
+        private ImageView img;
+        public BannerImage(@NonNull View itemView) {
+            super(itemView);
+
+           img=itemView.findViewById(R.id.banner_image);
+        }
+        // each data item is just a string in this case
+
+    }
+}

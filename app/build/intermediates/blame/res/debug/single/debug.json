@@ -1,0 +1,2010 @@
+[
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline_video_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_offline_video_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_delete_outline_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_delete_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_embaded_player.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_embaded_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_calender_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_notifications_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_notifications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_course.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_radio_button_checked_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_radio_button_checked_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_sub_cat_item1.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\row_sub_cat_item1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_line.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\bottom_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_amethysta.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\amethysta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_profile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jkk.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\jkk.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_topic_wise_pdf.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_topic_wise_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pre_pare_exam.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_pre_pare_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mock_test_web_view.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mock_test_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_back.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\spinner_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_mail_outline_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_mail_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_regular.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\radio_flat_regular.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider1.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\slider1.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_single_course_details.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_single_course_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_access_time_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mobile__registration.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mobile__registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_background_offline.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\bottom_sheet_background_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_edit_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_edit_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_doubt.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_doubt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_youtube_player_live_classes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_youtube_player_live_classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_oval_un.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\primary_oval_un.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_mock_series_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\mock_series_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_black_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider11.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\slider11.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_cancel_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_reply_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_reply_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_right.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\radio_flat_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape_dark.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\shape_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_vertor.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_vertor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pre_pare.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_pre_pare.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_video.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\video.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_7.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-hdpi\\shape_7.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_keyboard_arrow_left_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_left_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_sectional_analysis_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\sectional_analysis_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_save_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_save_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_send.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_track_selection_dialog.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\track_selection_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_file_pdf.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\file_pdf.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_daily_gk_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\daily_gk_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_your_exam_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\your_exam_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_save_notes_menu.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\save_notes_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rate_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\rate_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_live.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_edit_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_edit_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_oval.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\primary_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exoplayer_offline.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_exoplayer_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_edit_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xhdpi\\ic_edit_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_demo.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash_demo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pdf_reader_file.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_pdf_reader_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daily_g_k.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_daily_g_k.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_badge.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_cancel_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_cancel_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_test_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_test_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_fullscreen_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_fullscreen_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_announcement.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_announcement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_black_ops_one.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\black_ops_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_edit_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-mdpi\\ic_edit_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog_dashboard.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\custom_dialog_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dislike.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_dislike.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_analysis_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\analysis_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_screen_rotation_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_screen_rotation_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_gk_fill_filter_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\gk_fill_filter_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape_7.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\shape_7.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_spinner.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_slider_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\image_slider_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_all_couse__sub_category.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_view_all_couse__sub_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pont_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\pont_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_thanks.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_thanks.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_save_notes_all_pdfand_notes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_save_notes_all_pdfand_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_cousine.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\cousine.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_calender_round.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_calender_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottomsheet_video_offline.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\bottomsheet_video_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_book2.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_book2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_message_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_message_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_artifika.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\artifika.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_save_notes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\menu_save_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_offline_pdf_view_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\offline_pdf_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prepare_exam.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\prepare_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_border_rounded_sylla.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\border_rounded_sylla.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_doubts_course.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_all_doubts_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_myriadpro_bold.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\myriadpro_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mth.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\mth.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemistry.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\chemistry.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_border.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_star_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_live_class.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_live_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_gradient_soft.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\bg_gradient_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_clock.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_alarm_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rate_un_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xhdpi\\rate_un_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_youtube_player_classes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_youtube_player_classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_layout_today_live.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\image_layout_today_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_pdf.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\menu_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_phone_android_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_phone_android_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_entrance.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\entrance.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_feedback.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dialog_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_sub_cat_item_chap.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\row_sub_cat_item_chap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_slider.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\image_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_download.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard__single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_dashboard__single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_individual_topic_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\individual_topic_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rounded_primary.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\btn_rounded_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_notes_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\pdf_notes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_sub_cat_item.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\row_sub_cat_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forget_password.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_forget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\bottom_sheet_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_profile_dialog.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\my_profile_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_result_img.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\result_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_ustom_controls.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\ustom_controls.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_single_doubt_details.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_single_doubt_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ture_check.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_ture_check.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_notes_pdf_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\home_notes_pdf_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_oval_wong.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\primary_oval_wong.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_shape.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rounded_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_instagram_icon.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\instagram_icon.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_candal.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\candal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_free__view__all_video.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_free__view__all_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepare_exam_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\prepare_exam_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_13.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\image_13.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_video_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_aclonica.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\aclonica.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\bottom_sheet_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_mentor_post_comment_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\mentor_post_comment_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_e.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\e.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gift.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\gift.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iconfullscreen.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\iconfullscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_submit_exam.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dialog_submit_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_com.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\image_com.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_descrip_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\exam_descrip_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_result_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_circle_outline_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_remove_circle_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_button.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_doubts.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_my_doubts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_regular.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\opensans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rate_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\rate_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mock_test__single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_mock_test__single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live_classes_video.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_live_classes_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cancel.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_shape_dark.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xhdpi\\shape_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_black_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_star_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_rounded_corners.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\shape_rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_start_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\quiz_start_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_homeee.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_homeee.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_study.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\study.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_get_all_results.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_get_all_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_student.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_none_black_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_notifications_none_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_comment_mentor.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_edit_comment_mentor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_toolbar1.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\pdf_toolbar1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_border_black_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_star_border_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_loginimage.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_loginimage.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_course.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_upcoming_course_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\upcoming_course_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_smartphone.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_smartphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mock_test_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mock_test_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exo_yout_player.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_exo_yout_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_series_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\quiz_series_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_successfully.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_payment_successfully.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_share.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\bottom_sheet_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_comment_menu.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\comment_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_dash.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\menu_dash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_info_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_logo.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\my_logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_lock_oval.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\lock_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dashboard_video_layout_class_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dashboard_video_layout_class_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_layout_today.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\image_layout_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_layout_white_otp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\round_layout_white_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_scale_out.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\anim\\anim_scale_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\delete.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider3.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\slider3.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doubts__topic.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_doubts__topic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_location_on_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_result_analysis.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\result_analysis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_series_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\video_series_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\pdf_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_topic_quiz_individual.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_topic_quiz_individual.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_all__quiz_test_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_view_all__quiz_test_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ribbon.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ribbon.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mocktest_view_answer_web_view.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mocktest_view_answer_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_calender_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_calender_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_myriadpro_semibold.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\myriadpro_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_your_exams_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_your_exams_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selector.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\radio_flat_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_mode_comment_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_mode_comment_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_dark.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-hdpi\\shape_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_true.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_true.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_result_all_show_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\result_all_show_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pdf_file.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_pdf_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\poppins.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_no__internet__conn.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_no__internet__conn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tag.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_get_home_all_results.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_get_home_all_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnpay.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\btnpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_right.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\background_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_pdf_notes_category.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_home_pdf_notes_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_white_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_share_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rate_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxhdpi\\rate_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_save_notes_pdf_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\save_notes_pdf_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_payment_icon.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\payment_icon.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_home_color.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\shape_home_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_check_circle_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_check_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rate_un_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-hdpi\\rate_un_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live_classes_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_live_classes_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sent.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_sent.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daily_news.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_daily_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coming_soon.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\coming_soon.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tree.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\tree.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gk.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_gk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forget.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\forget.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_video_library_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_video_library_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_navigate_next_black_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_navigate_next_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_live_streaming.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_live_streaming.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_serach_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\serach_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_payemt_img.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\payemt_img.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cell_cyan.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\cell_cyan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_mock_test_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_view_mock_test_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro3.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\intro3.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_card_wizard_light.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\item_card_wizard_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video_file.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_video_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam_series.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_exam_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_offline_video_play_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\offline_video_play_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contract.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_contract.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_logo.jpeg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash_logo.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whatsapp.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_result_analys_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\result_analys_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_shape_7.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xhdpi\\shape_7.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinerrr.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\spinerrr.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_all_topic_wise.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\row_all_topic_wise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_calender.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xhdpi\\ic_calender.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rating_bar_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rating_bar_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_picture_as_pdf_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_picture_as_pdf_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_language_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_language_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrowright.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_arrowright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dot_arrow.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_dot_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradeup_logo.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\gradeup_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_email_register.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_email_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedback_input_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\feedback_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_answer_key.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_view_answer_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_purchase.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_downward_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_save_notes_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\save_notes_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_share.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_allpost.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_allpost.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_calender.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_calender.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_go_exam_mentor_post.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_go_exam_mentor_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progressbar_drawable.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\custom_progressbar_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_sinlge_course_exam_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\sinlge_course_exam_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\image.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recent_live_video.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_recent_live_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rate_un_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\rate_un_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live_classes.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\live_classes.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_exo_playback_control_view.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\exo_playback_control_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_message.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_more_classes_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\more_classes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider2.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\slider2.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_doubts__single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_doubts__single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mock_question_attempts.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mock_question_attempts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_button_box.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\round_button_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_lbl.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rounded_lbl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_physics.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\physics.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_syllabus_single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_syllabus_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_less.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_less.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chats.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\chats.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_calender_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-hdpi\\ic_calender_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_forget_pass.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dialog_forget_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_live_class_adapter.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\live_class_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rate_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xhdpi\\rate_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_shape_7.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxhdpi\\shape_7.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_livevideo_layout_today.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\livevideo_layout_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_no_internet_satellite.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\img_no_internet_satellite.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn_quiz_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\learn_quiz_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_student_pic.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_student_pic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_data.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\no_data.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook_icon.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\facebook_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_syllabus__single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_syllabus__single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dashboard_free_quiz.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dashboard_free_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialogbox_otp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\custom_dialogbox_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_privacy_policy.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exam.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_daily_news_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\daily_news_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_get_all_course_sub_category.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_get_all_course_sub_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_layout_otp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\round_layout_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_more_subject_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\more_subject_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_calender.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-mdpi\\ic_calender.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_item_right.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\chat_item_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discount.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\discount.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_rounded1.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\border_rounded1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_location_city_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_location_city_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_forward_10_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_forward_10_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_replay_10_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_replay_10_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginback.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\loginback.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_offline_dialog.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\offline_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_check_flat_selector.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\check_flat_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_quiz.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\image_quiz.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_google_play_store.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\google_play_store.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_series_list_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\video_series_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\camera.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_sub_frag_cat_item.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\row_sub_frag_cat_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mentor_comment_reply.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mentor_comment_reply.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_wise_test.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\exam_wise_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_take_exam_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\take_exam_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exam_prepare.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\exam_prepare.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_logout.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_calender.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_calender.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_scale_in.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\anim\\anim_scale_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_upcoming_live_classes.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_upcoming_live_classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telegram.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\telegram.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_bold.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\opensans_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_chat_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\edittext_chat_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_giftbox.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\giftbox.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_payment_details_course_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\payment_details_course_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_take_exam_bottom.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\take_exam_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transparent_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\transparent_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gift_box.gif.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\gift_box.gif"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_edit_round.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_edit_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quiz_back_oval.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\quiz_back_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_cancel_popup.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\btn_cancel_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_test.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_checkout_demo_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\checkout_demo_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_n.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_like_n.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_homee_cate_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\homee_cate_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_point.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\point.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_indiviual__topic.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_indiviual__topic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_g_translate_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_g_translate_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_question_attempt.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_all_question_attempt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_refresh.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxhdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro2.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\intro2.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_calender.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-hdpi\\ic_calender.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_success.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_volkhov.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\volkhov.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_counseling.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_counseling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_vertor.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_vertor.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_post.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_all_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refer.gif.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\refer.gif"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_my_location_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_my_location_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_daily_gk.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\daily_gk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sub_category_class.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_sub_category_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cross.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_cross.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_award.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_award.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_liveclass.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\image_liveclass.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_results.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_gradient.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp__verification.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_otp__verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_book.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mock_series_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mock_series_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mentor_post_single_test_description.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mentor_post_single_test_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_accu.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\circle_accu.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_multi_tab_syllabus.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_multi_tab_syllabus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rounded_skip.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\rounded_skip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_result_bg.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\result_bg.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_shape_dark.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxhdpi\\shape_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_rating.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dialog_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_doubttoolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\doubttoolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_mock_test_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\mock_test_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_live_layout_class_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\live_layout_class_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider04.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\slider04.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_layout_save.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\popup_layout_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_doubttoolbarsingle.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\doubttoolbarsingle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_test_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\view_test_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_bin.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_delete_bin.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_border.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\edit_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_border.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_all_course_exam_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\all_course_exam_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_radio_button_unchecked_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_radio_button_unchecked_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_whatsapp.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_calender_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calender_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_download_success.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_download_success.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_call.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\help_call.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rate_un_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxhdpi\\rate_un_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_doubt_cate_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\doubt_cate_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_view_answer_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\quiz_view_answer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_light_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\btn_light_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shape_dark.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\shape_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_calender.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calender.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_go_icon.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\go_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_web_view_demo.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_web_view_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_courses.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\courses.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_test_toolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\quiz_test_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rate_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-hdpi\\rate_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_result_web_view.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_result_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_mentor_post_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\mentor_post_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mentor_comment_home.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mentor_comment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_monetization_on_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_monetization_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_semibold.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\font\\opensans_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_series_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\pdf_series_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_blue_yellow.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\splash_blue_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_wrong.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\radio_flat_wrong.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pdf_view_demo.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_pdf_view_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_navigate_next_primary_24dp.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_navigate_next_primary_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_drawer_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\nav_drawer_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender_foreground.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_calender_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_your_pdf_notes_offline.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_your_pdf_notes_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_doubt_answer_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\doubt_answer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hind_icon_trans.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_hind_icon_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_report_card__single.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_report_card__single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_file_copy_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_file_copy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_prepare.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_prepare.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_subject.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_subject.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_shape_outline.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\rounded_shape_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shape_7.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\shape_7.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_all_fee_quiz_list_dashboard.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_view_all_fee_quiz_list_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_edit_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-hdpi\\ic_edit_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\learn.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_minus.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_minus.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call_help.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\call_help.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_your_profiletoolbar.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\your_profiletoolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_calender_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-mdpi\\ic_calender_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_compass_calibration_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_compass_calibration_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_view_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\quiz_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_mentor_post_comment_reply_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\mentor_post_comment_reply_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_your_profile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_your_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_forget_new_pass.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\dialog_forget_new_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_accout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-mdpi\\ic_accout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_notes_pdf.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_home_notes_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play.gif.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\play.gif"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_spinner_back.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\spinner_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mentor_post.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_mentor_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_live.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_linear_circle_layout.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\linear_circle_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_check_out.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_payment_check_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_student_id.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\fragment_student_id.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ed_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ed_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemical.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\chemical.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animation_lmaup4it.gif.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\animation_lmaup4it.gif"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_edit_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro1.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\intro1.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_foreground.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_edit_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_percentage.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\circle_percentage.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\xml_fileprovider.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\xml\\fileprovider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selected.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\radio_flat_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_series_list.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\layout\\activity_video_series_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rate_un_fill.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable-xxxhdpi\\rate_un_fill.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_calender_round.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-xhdpi\\ic_calender_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live_status_video.webp.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\live_status_video.webp"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\shape_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_filter.png.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\filter.png"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_arrow_forward_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\ic_outline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_box.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Desktop\\EduWork\\RankersPoint\\app\\src\\main\\res\\drawable\\shape_box.xml"
+    }
+]

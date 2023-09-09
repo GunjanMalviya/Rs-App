@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SubjectActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/all_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seventy_dp"
+        android:layout_margin="@dimen/ten_dp"
+        android:elevation="@dimen/ten_dp"
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardElevation="@dimen/ten_dp">
+
+        <RelativeLayout
+            android:layout_margin="@dimen/ten_dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/forteen_sp"
+                android:text="All Content"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pNAme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:text="All Videos | All Exercises | All Notes"
+                android:layout_below="@id/sno"
+                android:textColor="@color/black_dark"
+                android:textSize="@dimen/twelve_sp" />
+
+            <ImageView
+                android:layout_width="@dimen/thirty_sp"
+                android:layout_height="@dimen/thirty_sp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrowright" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seventy_dp"
+        android:layout_margin="@dimen/ten_dp"
+        android:elevation="@dimen/ten_dp"
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardElevation="@dimen/ten_dp">
+
+        <RelativeLayout
+            android:layout_margin="@dimen/ten_dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sno1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/forteen_sp"
+                android:text="Basic Concept Building"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pNAme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:text="8 Videos"
+                android:layout_below="@id/sno1"
+                android:textColor="@color/black_dark"
+                android:textSize="@dimen/twelve_sp" />
+
+            <ImageView
+                android:layout_width="@dimen/thirty_sp"
+                android:layout_height="@dimen/thirty_sp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrowright" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_syl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp" />-->
+
+</LinearLayout>

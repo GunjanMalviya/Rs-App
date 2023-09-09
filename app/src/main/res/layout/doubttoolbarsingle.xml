@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/white_color"
+
+    android:contentInsetEnd="@dimen/zero_dp"
+    android:contentInsetRight="@dimen/zero_dp"
+    android:contentInsetStart="@dimen/zero_dp"
+    app:contentInsetEnd="@dimen/zero_dp"
+    app:contentInsetLeft="@dimen/zero_dp"
+    app:contentInsetRight="@dimen/zero_dp"
+    app:contentInsetStart="@dimen/zero_dp"
+    android:titleMarginStart="@dimen/fifteen_dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            app:tint="@color/black_dark"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="8"
+        android:layout_toRightOf="@id/imgBack"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/fifty_dp"
+           android:id="@+id/profile_image"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_toRightOf="@+id/imgBack"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="@string/title"
+            android:textSize="@dimen/sixteen_sp"
+            android:paddingLeft="@dimen/ten_sp"
+            android:paddingRight="@dimen/five_dp"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black_color"
+
+            android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tv_toolbar_date"
+                android:layout_toRightOf="@+id/imgBack"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+
+                android:text="@string/title"
+                android:textSize="@dimen/forteen_sp"
+                android:paddingLeft="@dimen/ten_sp"
+                android:paddingRight="@dimen/five_dp"
+
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/overlay_dark_60"
+
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/overlay_dark_20"/>
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/white_color"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/doubttoolbarsingle"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifty_dp"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:layout_margin="@dimen/ten_sp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sixteen_sp"
+            android:id="@+id/txt_title_doubt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offline_pay_rule1"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:textColor="@color/black_color"
+            android:paddingRight="@dimen/five_dp"
+            android:textSize="@dimen/forteen_sp"
+            android:id="@+id/txt_descrip"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/doubt_img"
+            android:layout_margin="@dimen/five_dp"/>
+
+        <Button
+            android:id="@+id/type_cmd"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/thirty_sp"
+            android:layout_margin="@dimen/ten_sp"
+            android:background="@drawable/shape_rounded_corners"
+            android:paddingLeft="@dimen/ten_sp"
+            android:paddingRight="@dimen/ten_sp"
+            android:text="@string/title"
+            android:textAllCaps="false"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/forteen_sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sixty_dp"
+            android:weightSum="3"
+
+            android:gravity="center"
+
+            android:id="@+id/linearlayout_cancel"
+            android:layout_marginTop="@dimen/seventy_dp"
+            android:background="@drawable/rounded_skip"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer"
+
+
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/fifteen_sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(0)"
+                android:id="@+id/txt_ans_count"
+android:paddingLeft="@dimen/five_dp"
+android:textStyle="bold"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/twenty_sp"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sixty_dp" />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_rounded_primary"
+        android:id="@+id/bottom_rltive"
+        android:layout_gravity="bottom"
+       android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_now"
+            android:textStyle="bold"
+            android:textSize="@dimen/eighteen_sp"
+            android:textColor="@color/white_color"
+            android:gravity="center"
+            android:paddingTop="@dimen/ten_sp"
+            android:paddingBottom="@dimen/ten_sp"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_behavior="@string/bottom_sheet_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

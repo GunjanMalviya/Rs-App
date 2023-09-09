@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:cardBackgroundColor="@color/blue_50"
+        app:cardCornerRadius="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_msg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_hundred_ten_dp"
+                android:layout_marginStart="@dimen/ten_sp"
+                android:layout_marginTop="@dimen/ten_sp"
+                android:layout_marginEnd="@dimen/ten_sp"
+                android:background="@drawable/feedback_input_bg"
+                android:fontFamily="@font/myriadpro_bold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/black_color" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_margin="@dimen/ten_dp"
+    android:layout_weight="1"
+    android:background="@drawable/shape_box"
+    android:layout_height="@dimen/thirty_five_dp">
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/myriadpro_bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="10dp"
+        android:text="@string/contact_us"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/theme_purple"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_whatsapp"/>
+</RelativeLayout>
+
+                <TextView
+                    android:id="@+id/btn_submit"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/thirty_five_dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rounded_corners"
+                    android:fontFamily="@font/myriadpro_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    android:layout_margin="@dimen/ten_dp"
+                    android:text="OK"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

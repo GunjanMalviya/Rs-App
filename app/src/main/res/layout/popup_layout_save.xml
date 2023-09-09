@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@drawable/rounded_lbl"
+android:layout_gravity="right|top"
+    android:backgroundTint="@color/white_color"
+    android:padding="@dimen/five_dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:padding="@dimen/five_dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="@dimen/fifteen_sp"
+
+            android:layout_height="@dimen/fifteen_sp"
+            android:src="@drawable/ic_all_post"
+            android:id="@+id/startimg"
+
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="0dp"
+            android:text="All"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold"
+            android:id="@+id/item_All"
+            android:textColor="@color/black_color"
+            android:paddingLeft="@dimen/five_dp"
+            android:layout_toRightOf="@+id/startimg"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:padding="@dimen/five_dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_width="@dimen/fifteen_sp"
+            android:layout_height="@dimen/fifteen_sp"
+            android:src="@drawable/video"
+            android:id="@+id/startimg1"
+
+            />
+
+        <TextView
+            android:id="@+id/item_Video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/startimg1"
+            android:paddingLeft="@dimen/five_dp"
+
+            android:text="Video"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:padding="@dimen/five_dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="@dimen/fifteen_sp"
+            android:layout_height="@dimen/fifteen_sp"
+
+            android:src="@drawable/ic_outline_picture_as_pdf_24"
+            android:id="@+id/startimg2"
+
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="0dp"
+            android:text="Pdf"
+            android:id="@+id/item_Pdf"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_color"
+            android:paddingLeft="@dimen/five_dp"
+            android:layout_toRightOf="@+id/startimg2"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

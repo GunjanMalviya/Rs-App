@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rankerspoint.academy.Fragment.StudentIdFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="160dp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+               android:layout_marginTop="@dimen/ten_sp"
+              app:cardBackgroundColor="@color/grey_200"
+                app:cardCornerRadius="@dimen/eight_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/eight_dp"
+
+                            android:fontFamily="@font/myriadpro_bold"
+                             android:textSize="@dimen/sixteen_sp"
+                            android:text="@string/latest_exams"
+                            android:textStyle="bold"
+
+                            android:textColor="@color/black_color" />
+
+
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="@dimen/thirty_sp"
+
+                        android:layout_height="@dimen/thirty_sp"
+                        android:layout_gravity="center"
+                       android:layout_marginLeft="-35dp"
+
+
+
+                        android:background="@drawable/primary_oval">
+
+                        <ImageView
+                            android:layout_width="@dimen/twenty_sp"
+                            android:layout_height="@dimen/twenty_sp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/ic_true" />
+                    </RelativeLayout>
+
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/twenty_sp"
+                android:fontFamily="@font/myriadpro_bold"
+                android:text="@string/classes"
+
+                android:layout_marginTop="@dimen/twenty_sp"
+                android:layout_marginLeft="@dimen/ten_sp"
+                android:textColor="@color/black_color"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_image_slider1"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/twenty_sp"
+                android:layout_height="160dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/call_help"
+        app:backgroundTint="@color/theme_purple"
+        android:background="@color/theme_pink"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        android:scaleType="center"
+
+
+
+        app:maxImageSize="40dp"
+        android:contentDescription="@string/submit"
+        android:layout_margin="16dp" >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+</FrameLayout>

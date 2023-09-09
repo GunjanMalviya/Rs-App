@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/five_dp"
+    android:id="@+id/card_course_click"
+    app:cardBackgroundColor="@color/white_color"
+app:cardUseCompatPadding="true"
+
+    app:cardCornerRadius="@dimen/six_dp"
+    >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="@dimen/sixteen_sp"
+                android:gravity="center"
+                android:id="@+id/txtTitleCourse"
+                android:paddingLeft="@dimen/fifteen_sp"
+                android:paddingRight="@dimen/fifteen_sp"
+
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+                android:layout_margin="@dimen/five_dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black_color"
+                ></TextView>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

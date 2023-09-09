@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/white_color"
+
+    android:contentInsetEnd="@dimen/zero_dp"
+    android:contentInsetRight="@dimen/zero_dp"
+    android:contentInsetStart="@dimen/zero_dp"
+    app:contentInsetEnd="@dimen/zero_dp"
+    app:contentInsetLeft="@dimen/zero_dp"
+    app:contentInsetRight="@dimen/zero_dp"
+
+    app:contentInsetStart="@dimen/zero_dp"
+    android:titleMarginStart="@dimen/fifteen_dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            app:tint="@color/black_dark"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"/>
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_toRightOf="@+id/imgBack"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="xy"
+            android:textSize="@dimen/eighteen_sp"
+            android:paddingLeft="@dimen/ten_sp"
+            android:paddingRight="@dimen/five_dp"
+            android:layout_marginRight="@dimen/twenty_dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black_color"
+
+            android:layout_gravity="center"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/llb_out1"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/one_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:layout_height="match_parent"
+            android:background="@color/overlay_dark_20"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_trans"
+            android:layout_gravity="center"
+            android:padding="@dimen/twelve_sp"
+
+
+            android:src="@drawable/ic_hind_icon_trans"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/llb_out2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/one_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:layout_height="match_parent"
+            android:background="@color/overlay_dark_20"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_trans_pdf"
+            android:layout_gravity="center"
+            android:padding="@dimen/twelve_sp"
+
+
+            android:src="@drawable/ic_hind_icon_trans"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

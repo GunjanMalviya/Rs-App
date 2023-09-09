@@ -1,0 +1,1009 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rankerspoint.academy"
+4    android:versionCode="32"
+5    android:versionName="10.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:7:5-69
+12-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:7:22-66
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:10:5-76
+15-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:12:5-65
+17-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:12:22-62
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:13:5-80
+18-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- //<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> -->
+20-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:15:5-88
+20-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:15:22-85
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" tools:node="remove" /> -->
+21-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:16:22-78
+22    <!-- <uses-permission android:name="android.permission.READ_SMS" tools:node="remove"></uses-permission> -->
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- // <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+23-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:18:5-75
+23-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:18:22-72
+24    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" -->
+25    <!-- tools:ignore="ScopedStorage" /> -->
+26    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> -->
+27    <uses-feature
+27-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:22:5-24:35
+28        android:name="android.hardware.camera.any"
+28-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:23:9-51
+29        android:required="true" />
+29-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:24:9-32
+30    <uses-feature
+30-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:25:5-27:36
+31        android:name="android.hardware.camera.autofocus"
+31-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:26:9-57
+32        android:required="false" />
+32-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:27:9-33
+33
+34    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+34-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:5-77
+34-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:22-74
+35    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+35-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:5-68
+35-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:22-65
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+36-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
+36-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
+37
+38    <queries>
+38-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:11:5-37:15
+39        <intent>
+39-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:12:9-18:18
+40            <action android:name="android.intent.action.VIEW" />
+40-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:13-65
+40-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:21-62
+41
+42            <data
+42-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:15:13-17:38
+43                android:mimeType="*/*"
+43-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:16:17-39
+44                android:scheme="*" />
+44-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:17:17-35
+45        </intent>
+46        <intent>
+46-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:12:9-18:18
+47            <action android:name="android.intent.action.VIEW" />
+47-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:13-65
+47-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:21-62
+48
+49            <category android:name="android.intent.category.BROWSABLE" />
+50
+51            <data
+51-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:15:13-17:38
+52                android:host="pay"
+53                android:mimeType="*/*"
+53-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:16:17-39
+54                android:scheme="upi" />
+54-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:17:17-35
+55        </intent>
+56        <intent>
+56-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:12:9-18:18
+57            <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:17-69
+57-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:25-66
+58        </intent>
+59        <intent>
+59-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:12:9-18:18
+60            <action android:name="android.intent.action.SEND" />
+61
+62            <data android:mimeType="*/*" />
+62-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:15:13-17:38
+62-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:16:17-39
+63        </intent>
+64    </queries>
+65
+66    <uses-feature
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+67        android:glEsVersion="0x00020000"
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+68        android:required="true" />
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+69
+70    <application
+70-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:29:5-365:19
+71        android:allowAudioPlaybackCapture="false"
+71-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:30:9-50
+72        android:allowBackup="true"
+72-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:31:9-35
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:24:18-86
+74        android:debuggable="true"
+75        android:exported="true"
+75-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:32:9-32
+76        android:icon="@mipmap/ic_launcher"
+76-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:33:9-43
+77        android:label="@string/app_name"
+77-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:34:9-41
+78        android:largeHeap="true"
+78-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:35:9-33
+79        android:requestLegacyExternalStorage="true"
+79-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:36:9-52
+80        android:supportsRtl="true"
+80-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:37:9-35
+81        android:testOnly="true"
+82        android:theme="@style/AppTheme"
+82-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:38:9-40
+83        android:usesCleartextTraffic="true" >
+83-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:39:9-44
+84        <activity
+84-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:41:9-43:40
+85            android:name="com.rankerspoint.academy.Activity.SubjectActivity"
+85-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:42:13-53
+86            android:exported="false" />
+86-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:43:13-37
+87        <activity
+87-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:44:9-47:52
+88            android:name="com.rankerspoint.academy.Activity.GoExamMentorPost"
+88-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:45:13-54
+89            android:exported="false"
+89-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:46:13-37
+90            android:screenOrientation="portrait" />
+90-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:47:13-49
+91        <activity
+91-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:48:9-51:52
+92            android:name="com.rankerspoint.academy.Activity.ViewAllCouse_SubCategory"
+92-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:49:13-62
+93            android:exported="false"
+93-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:50:13-37
+94            android:screenOrientation="portrait" />
+94-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:51:13-49
+95        <activity
+95-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:52:9-55:52
+96            android:name="com.rankerspoint.academy.Activity.ViewAllFeeQuizListDashboard"
+96-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:53:13-65
+97            android:exported="false"
+97-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:54:13-37
+98            android:screenOrientation="portrait" />
+98-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:55:13-49
+99        <activity
+99-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:56:9-59:52
+100            android:name="com.rankerspoint.academy.Activity.Free_View_AllVideo"
+100-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:57:13-56
+101            android:exported="false"
+101-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:58:13-37
+102            android:screenOrientation="portrait" />
+102-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:59:13-49
+103        <activity
+103-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:60:9-63:52
+104            android:name="com.rankerspoint.academy.Activity.GetHomeAllResults"
+104-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:61:13-55
+105            android:exported="false"
+105-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:62:13-37
+106            android:screenOrientation="portrait" />
+106-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:63:13-49
+107        <activity
+107-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:64:9-67:52
+108            android:name="com.rankerspoint.academy.Activity.ViewAll_QuizTestSeries"
+108-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:65:13-60
+109            android:exported="false"
+109-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:66:13-37
+110            android:screenOrientation="portrait" />
+110-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:67:13-49
+111        <activity
+111-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:68:9-71:52
+112            android:name="com.rankerspoint.academy.Activity.MocktestViewAnswerWebView"
+112-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:69:13-63
+113            android:exported="false"
+113-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:70:13-37
+114            android:screenOrientation="portrait" />
+114-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:71:13-49
+115        <activity
+115-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:72:9-75:52
+116            android:name="com.rankerspoint.academy.Activity.ResultWebView"
+116-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:73:13-51
+117            android:exported="false"
+117-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:74:13-37
+118            android:screenOrientation="portrait" />
+118-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:75:13-49
+119        <activity
+119-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:76:9-80:52
+120            android:name="com.rankerspoint.academy.Activity.MockTestWebView"
+120-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:77:13-53
+121            android:exported="false"
+121-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:78:13-37
+122            android:noHistory="true"
+122-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:79:13-37
+123            android:screenOrientation="portrait" />
+123-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:80:13-49
+124        <activity
+124-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:81:9-84:52
+125            android:name="com.rankerspoint.academy.Activity.SaveNotesAllPdfandNotes"
+125-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:82:13-61
+126            android:exported="false"
+126-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:83:13-37
+127            android:screenOrientation="portrait" />
+127-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:84:13-49
+128        <activity
+128-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:85:9-88:52
+129            android:name="com.rankerspoint.academy.Activity.EditCommentMentor"
+129-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:86:13-55
+130            android:exported="false"
+130-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:87:13-37
+131            android:screenOrientation="portrait" />
+131-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:88:13-49
+132        <activity
+132-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:89:9-91:40
+133            android:name="com.rankerspoint.academy.WebViewDemo"
+133-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:90:13-40
+134            android:exported="false" />
+134-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:91:13-37
+135        <activity
+135-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:92:9-95:52
+136            android:name="com.rankerspoint.academy.Activity.MentorCommentReply"
+136-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:93:13-56
+137            android:exported="false"
+137-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:94:13-37
+138            android:screenOrientation="portrait" />
+138-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:95:13-49
+139        <activity
+139-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:96:9-99:52
+140            android:name="com.rankerspoint.academy.Activity.MentorCommentHome"
+140-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:97:13-55
+141            android:exported="false"
+141-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:98:13-37
+142            android:screenOrientation="portrait" />
+142-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:99:13-49
+143        <activity
+143-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:100:9-103:52
+144            android:name="com.rankerspoint.academy.Activity.MentorPostSingleTestDescription"
+144-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:101:13-69
+145            android:exported="false"
+145-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:102:13-37
+146            android:screenOrientation="portrait" />
+146-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:103:13-49
+147        <activity
+147-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:104:9-107:52
+148            android:name="com.rankerspoint.academy.Activity.MentorPost"
+148-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:105:13-48
+149            android:exported="false"
+149-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:106:13-37
+150            android:screenOrientation="portrait" />
+150-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:107:13-49
+151        <activity
+151-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:108:9-111:52
+152            android:name="com.rankerspoint.academy.Activity.LiveClassesVideo"
+152-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:109:13-54
+153            android:exported="false"
+153-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:110:13-37
+154            android:screenOrientation="portrait" />
+154-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:111:13-49
+155        <activity
+155-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:112:9-115:52
+156            android:name="com.rankerspoint.academy.Activity.LiveClassesListActivity"
+156-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:113:13-61
+157            android:exported="false"
+157-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:114:13-37
+158            android:screenOrientation="portrait" />
+158-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:115:13-49
+159        <activity
+159-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:116:9-119:52
+160            android:name="com.rankerspoint.academy.Activity.PaymentSuccessfully"
+160-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:117:13-57
+161            android:exported="false"
+161-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:118:13-37
+162            android:screenOrientation="portrait" />
+162-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:119:13-49
+163        <activity
+163-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:120:9-123:52
+164            android:name="com.rankerspoint.academy.Activity.VideoSeriesList"
+164-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:121:13-53
+165            android:exported="false"
+165-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:122:13-37
+166            android:screenOrientation="portrait" />
+166-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:123:13-49
+167        <activity
+167-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:124:9-127:52
+168            android:name="com.rankerspoint.academy.Activity.YourExamsList"
+168-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:125:13-51
+169            android:exported="false"
+169-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:126:13-37
+170            android:screenOrientation="portrait" />
+170-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:127:13-49
+171        <activity
+171-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:128:9-130:40
+172            android:name="com.rankerspoint.academy.Activity.YourPdfNotesOffline"
+172-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:129:13-57
+173            android:exported="false" />
+173-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:130:13-37
+174        <activity
+174-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:131:9-133:40
+175            android:name="com.rankerspoint.academy.Activity.PdfViewDemo"
+175-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:132:13-49
+176            android:exported="false" />
+176-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:133:13-37
+177        <activity
+177-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:134:9-137:52
+178            android:name="com.rankerspoint.academy.Activity.DailyNewsActivity"
+178-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:135:13-55
+179            android:exported="false"
+179-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:136:13-37
+180            android:screenOrientation="portrait" />
+180-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:137:13-49
+181        <activity
+181-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:138:9-141:52
+182            android:name="com.rankerspoint.academy.Activity.DailyGK"
+182-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:139:13-45
+183            android:exported="false"
+183-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:140:13-37
+184            android:screenOrientation="portrait" />
+184-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:141:13-49
+185        <activity
+185-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:142:9-145:52
+186            android:name="com.rankerspoint.academy.Activity.ForgetPassword"
+186-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:143:13-52
+187            android:exported="false"
+187-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:144:13-37
+188            android:screenOrientation="portrait" />
+188-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:145:13-49
+189        <activity
+189-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:146:9-149:52
+190            android:name="com.rankerspoint.academy.Activity.VideoSeries"
+190-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:147:13-49
+191            android:exported="false"
+191-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:148:13-37
+192            android:screenOrientation="portrait" />
+192-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:149:13-49
+193        <activity
+193-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:150:9-153:52
+194            android:name="com.rankerspoint.academy.Activity.HomePdfNotesCategory"
+194-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:151:13-58
+195            android:exported="false"
+195-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:152:13-37
+196            android:screenOrientation="portrait" />
+196-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:153:13-49
+197        <activity
+197-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:154:9-157:52
+198            android:name="com.rankerspoint.academy.Activity.HomeNotesPdf"
+198-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:155:13-50
+199            android:exported="false"
+199-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:156:13-37
+200            android:screenOrientation="portrait" />
+200-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:157:13-49
+201        <activity
+201-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:158:9-161:52
+202            android:name="com.rankerspoint.academy.Activity.TopicQuizIndividual"
+202-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:159:13-57
+203            android:exported="false"
+203-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:160:13-37
+204            android:screenOrientation="portrait" />
+204-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:161:13-49
+205        <activity
+205-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:162:9-165:52
+206            android:name="com.rankerspoint.academy.Activity.TopicWisePdf"
+206-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:163:13-50
+207            android:exported="false"
+207-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:164:13-37
+208            android:screenOrientation="portrait" />
+208-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:165:13-49
+209        <activity
+209-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:166:9-169:52
+210            android:name="com.rankerspoint.academy.Activity.EmailRegister"
+210-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:167:13-51
+211            android:exported="false"
+211-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:168:13-37
+212            android:screenOrientation="portrait" />
+212-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:169:13-49
+213        <activity
+213-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:170:9-173:52
+214            android:name="com.rankerspoint.academy.Activity.PaymentCheckOut"
+214-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:171:13-53
+215            android:exported="false"
+215-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:172:13-37
+216            android:screenOrientation="portrait" />
+216-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:173:13-49
+217        <activity
+217-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:174:9-177:52
+218            android:name="com.rankerspoint.academy.Activity.ViewMockTestSeries"
+218-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:175:13-56
+219            android:exported="false"
+219-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:176:13-37
+220            android:screenOrientation="portrait" />
+220-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:177:13-49
+221        <activity
+221-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:178:9-181:52
+222            android:name="com.rankerspoint.academy.Activity.PdfReaderFile"
+222-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:179:13-51
+223            android:exported="false"
+223-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:180:13-37
+224            android:screenOrientation="portrait" />
+224-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:181:13-49
+225        <activity
+225-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:182:9-185:52
+226            android:name="com.rankerspoint.academy.Activity.OfflineVideoList"
+226-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:183:13-54
+227            android:exported="false"
+227-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:184:13-37
+228            android:screenOrientation="portrait" />
+228-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:185:13-49
+229        <activity
+229-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:186:9-189:53
+230            android:name="com.rankerspoint.academy.Activity.ExoplayerOffline"
+230-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:187:13-54
+231            android:exported="false"
+231-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:188:13-37
+232            android:screenOrientation="landscape" />
+232-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:189:13-50
+233        <activity
+233-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:190:9-193:52
+234            android:name="com.rankerspoint.academy.Activity.MockQuestionAttempts"
+234-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:191:13-58
+235            android:exported="false"
+235-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:192:13-37
+236            android:screenOrientation="portrait" />
+236-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:193:13-49
+237        <activity
+237-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:194:9-197:52
+238            android:name="com.rankerspoint.academy.Activity.MockSeriesListActivity"
+238-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:195:13-60
+239            android:exported="false"
+239-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:196:13-37
+240            android:screenOrientation="portrait" />
+240-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:197:13-49
+241        <activity
+241-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:198:9-201:52
+242            android:name="com.rankerspoint.academy.Activity.MockTestSeries"
+242-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:199:13-52
+243            android:exported="false"
+243-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:200:13-37
+244            android:screenOrientation="portrait" />
+244-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:201:13-49
+245        <activity
+245-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:202:9-205:53
+246            android:name="com.rankerspoint.academy.Activity.ExoYoutPlayer"
+246-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:203:13-51
+247            android:exported="false"
+247-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:204:13-37
+248            android:screenOrientation="landscape" />
+248-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:205:13-50
+249        <activity
+249-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:206:9-210:53
+250            android:name="com.rankerspoint.academy.Activity.EmbadedPlayer"
+250-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:207:13-51
+251            android:configChanges="orientation"
+251-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:208:13-48
+252            android:exported="false"
+252-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:209:13-37
+253            android:screenOrientation="landscape" />
+253-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:210:13-50
+254        <activity
+254-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:211:9-214:52
+255            android:name="com.rankerspoint.academy.Activity.Otp_Verification"
+255-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:212:13-54
+256            android:exported="false"
+256-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:213:13-37
+257            android:screenOrientation="portrait" />
+257-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:214:13-49
+258        <activity
+258-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:215:9-218:52
+259            android:name="com.rankerspoint.academy.Activity.GetAllResults"
+259-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:216:13-51
+260            android:exported="false"
+260-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:217:13-37
+261            android:screenOrientation="portrait" />
+261-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:218:13-49
+262        <activity
+262-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:219:9-222:52
+263            android:name="com.rankerspoint.academy.Activity.ViewAnswerKey"
+263-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:220:13-51
+264            android:exported="false"
+264-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:221:13-37
+265            android:screenOrientation="portrait" />
+265-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:222:13-49
+266        <activity
+266-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:223:9-226:52
+267            android:name="com.rankerspoint.academy.Activity.Mobile_Registration"
+267-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:224:13-57
+268            android:exported="false"
+268-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:225:13-37
+269            android:screenOrientation="portrait" />
+269-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:226:13-49
+270        <activity
+270-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:227:9-231:52
+271            android:name="com.rankerspoint.academy.Activity.AllQuestionAttempt"
+271-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:228:13-56
+272            android:exported="false"
+272-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:229:13-37
+273            android:noHistory="true"
+273-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:230:13-37
+274            android:screenOrientation="portrait" />
+274-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:231:13-49
+275        <activity
+275-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:232:9-235:52
+276            android:name="com.rankerspoint.academy.Activity.ExamSeries"
+276-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:233:13-48
+277            android:exported="false"
+277-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:234:13-37
+278            android:screenOrientation="portrait" />
+278-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:235:13-49
+279        <activity
+279-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:236:9-239:52
+280            android:name="com.rankerspoint.academy.Activity.Results"
+280-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:237:13-45
+281            android:exported="false"
+281-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:238:13-37
+282            android:screenOrientation="portrait" />
+282-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:239:13-49
+283        <activity
+283-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:240:9-243:52
+284            android:name="com.rankerspoint.academy.Activity.YourProfile"
+284-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:241:13-49
+285            android:exported="false"
+285-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:242:13-37
+286            android:screenOrientation="portrait" />
+286-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:243:13-49
+287        <activity
+287-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:244:9-247:52
+288            android:name="com.rankerspoint.academy.Activity.SingleDoubtDetails"
+288-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:245:13-56
+289            android:exported="false"
+289-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:246:13-37
+290            android:screenOrientation="portrait" />
+290-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:247:13-49
+291        <activity
+291-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:248:9-251:52
+292            android:name="com.rankerspoint.academy.Activity.AllDoubtsCourse"
+292-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:249:13-53
+293            android:exported="false"
+293-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:250:13-37
+294            android:screenOrientation="portrait" />
+294-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:251:13-49
+295        <activity
+295-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:252:9-255:52
+296            android:name="com.rankerspoint.academy.Activity.MyDoubts"
+296-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:253:13-46
+297            android:exported="false"
+297-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:254:13-37
+298            android:screenOrientation="portrait" />
+298-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:255:13-49
+299        <activity
+299-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:256:9-259:52
+300            android:name="com.rankerspoint.academy.Activity.Doubts_Topic"
+300-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:257:13-50
+301            android:exported="false"
+301-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:258:13-37
+302            android:screenOrientation="portrait" /> <!-- <activity -->
+302-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:259:13-49
+303        <!-- android:name=".Activity.YoutubePlayerClasses" -->
+304        <!-- android:configChanges="orientation" -->
+305        <!-- android:exported="false" -->
+306        <!-- android:screenOrientation="landscape" /> -->
+307        <activity
+307-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:264:9-267:52
+308            android:name="com.rankerspoint.academy.Activity.Indiviual_Topic"
+308-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:265:13-53
+309            android:exported="false"
+309-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:266:13-37
+310            android:screenOrientation="portrait" />
+310-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:267:13-49
+311        <activity
+311-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:268:9-271:52
+312            android:name="com.rankerspoint.academy.Activity.SyllabusSingle"
+312-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:269:13-52
+313            android:exported="false"
+313-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:270:13-37
+314            android:screenOrientation="portrait" />
+314-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:271:13-49
+315        <activity
+315-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:272:9-275:52
+316            android:name="com.rankerspoint.academy.Activity.MultiTabSyllabus"
+316-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:273:13-54
+317            android:exported="false"
+317-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:274:13-37
+318            android:screenOrientation="portrait" />
+318-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:275:13-49
+319        <activity
+319-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:276:9-279:40
+320            android:name="com.rankerspoint.academy.Activity.YoutubePlayerLiveClasses"
+320-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:277:13-62
+321            android:configChanges="orientation|screenSize|keyboardHidden"
+321-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:278:13-74
+322            android:exported="false" />
+322-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:279:13-37
+323        <activity
+323-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:280:9-283:52
+324            android:name="com.rankerspoint.academy.Activity.SingleCourseDetails"
+324-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:281:13-57
+325            android:exported="false"
+325-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:282:13-37
+326            android:screenOrientation="portrait" />
+326-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:283:13-49
+327        <activity
+327-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:284:9-287:52
+328            android:name="com.rankerspoint.academy.Activity.GetAllCourseSubCategory"
+328-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:285:13-61
+329            android:exported="false"
+329-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:286:13-37
+330            android:screenOrientation="portrait" />
+330-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:287:13-49
+331        <activity
+331-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:288:9-291:52
+332            android:name="com.rankerspoint.academy.Activity.No_Internet_Conn"
+332-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:289:13-54
+333            android:exported="false"
+333-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:290:13-37
+334            android:screenOrientation="portrait" />
+334-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:291:13-49
+335        <activity
+335-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:292:9-295:52
+336            android:name="com.rankerspoint.academy.Activity.SubCategoryClass"
+336-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:293:13-54
+337            android:exported="false"
+337-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:294:13-37
+338            android:screenOrientation="portrait" />
+338-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:295:13-49
+339        <activity
+339-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:296:9-299:52
+340            android:name="com.rankerspoint.academy.Activity.Settings"
+340-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:297:13-46
+341            android:exported="false"
+341-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:298:13-37
+342            android:screenOrientation="portrait" />
+342-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:299:13-49
+343        <activity
+343-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:300:9-303:52
+344            android:name="com.rankerspoint.academy.Activity.SignUp"
+344-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:301:13-44
+345            android:exported="false"
+345-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:302:13-37
+346            android:screenOrientation="portrait" />
+346-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:303:13-49
+347        <activity
+347-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:304:9-307:52
+348            android:name="com.rankerspoint.academy.Activity.MyProfile"
+348-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:305:13-47
+349            android:exported="false"
+349-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:306:13-37
+350            android:screenOrientation="portrait" />
+350-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:307:13-49
+351        <activity
+351-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:308:9-311:52
+352            android:name="com.rankerspoint.academy.Activity.PrePareExam"
+352-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:309:13-49
+353            android:exported="false"
+353-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:310:13-37
+354            android:screenOrientation="portrait" />
+354-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:311:13-49
+355        <activity
+355-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:312:9-315:52
+356            android:name="com.rankerspoint.academy.Activity.Login"
+356-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:313:13-43
+357            android:exported="false"
+357-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:314:13-37
+358            android:screenOrientation="portrait" />
+358-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:315:13-49
+359        <activity
+359-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:316:9-319:52
+360            android:name="com.rankerspoint.academy.Activity.IntroActivity"
+360-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:317:13-51
+361            android:exported="false"
+361-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:318:13-37
+362            android:screenOrientation="portrait" />
+362-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:319:13-49
+363        <activity
+363-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:320:9-329:20
+364            android:name="com.rankerspoint.academy.Activity.Splash"
+364-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:321:13-44
+365            android:exported="true"
+365-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:322:13-36
+366            android:screenOrientation="portrait" >
+366-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:323:13-49
+367            <intent-filter>
+367-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:324:13-328:29
+368                <action android:name="android.intent.action.MAIN" />
+368-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:17-69
+368-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:25-66
+369
+370                <category android:name="android.intent.category.LAUNCHER" />
+370-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:327:17-77
+370-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:327:27-74
+371            </intent-filter>
+372        </activity>
+373        <activity
+373-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:330:9-334:59
+374            android:name="com.rankerspoint.academy.Activity.Dashboard"
+374-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:331:13-47
+375            android:exported="false"
+375-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:332:13-37
+376            android:screenOrientation="portrait"
+376-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:333:13-49
+377            android:theme="@style/AppTheme.NoActionBar" />
+377-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:334:13-56
+378
+379        <meta-data
+379-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:336:9-338:55
+380            android:name="com.razorpay.ApiKey"
+380-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:337:13-47
+381            android:value="rzp_live_WIOWLoUYoFNRDh" /> <!-- android:value="rzp_test_Ak8EOYClho3ZDJ" /> -->
+381-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:338:13-52
+382        <meta-data
+382-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:339:9-341:57
+383            android:name="preloaded_fonts"
+383-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:340:13-43
+384            android:resource="@array/preloaded_fonts" />
+384-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:341:13-54
+385        <meta-data
+385-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:342:9-344:52
+386            android:name="com.google.firebase.messaging.default_notification_icon"
+386-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:343:13-83
+387            android:resource="@drawable/my_logo" />
+387-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:344:13-49
+388        <meta-data
+388-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:345:9-347:49
+389            android:name="com.google.firebase.messaging.default_notification_color"
+389-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:346:13-84
+390            android:resource="@color/red_500" /> <!-- <meta-data -->
+390-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:347:13-46
+391        <!-- android:name="com.google.firebase.messaging.default_notification_channel_id" -->
+392        <!-- android:value="@string/default_notification_channel_id" /> -->
+393        <!-- <service android:name="com.eyeedu.educationapp.notifications.MyFirebaseInstanceIdService"> -->
+394        <!-- <intent-filter> -->
+395        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+396        <!-- </intent-filter> -->
+397        <!-- </service> -->
+398        <provider
+399            android:name="androidx.core.content.FileProvider"
+399-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:356:13-62
+400            android:authorities="com.rankerspoint.academy.fileprovider"
+400-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:357:13-64
+401            android:enabled="true"
+401-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:358:13-35
+402            android:exported="false"
+402-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:359:13-37
+403            android:grantUriPermissions="true" >
+403-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:360:13-47
+404            <meta-data
+404-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:361:13-363:56
+405                android:name="android.support.FILE_PROVIDER_PATHS"
+405-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:362:17-67
+406                android:resource="@xml/fileprovider" />
+406-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:363:17-53
+407        </provider>
+408
+409        <receiver
+409-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
+410            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+410-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
+411            android:exported="true"
+411-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
+412            android:permission="com.google.android.c2dm.permission.SEND" >
+412-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+413            <intent-filter>
+413-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:35:13-37:29
+414                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+414-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:17-81
+414-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:25-78
+415            </intent-filter>
+416        </receiver>
+417        <!--
+418             FirebaseMessagingService performs security checks at runtime,
+419             but set to not exported to explicitly avoid allowing another app to call it.
+420        -->
+421        <service
+421-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
+422            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+422-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
+423            android:directBootAware="true"
+423-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
+424            android:exported="false" >
+424-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
+425            <intent-filter android:priority="-500" >
+425-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:48:13-50:29
+425-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:48:28-51
+426                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+426-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:49:17-78
+426-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:49:25-75
+427            </intent-filter>
+428        </service>
+429        <service
+429-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:52:9-58:19
+430            android:name="com.google.firebase.components.ComponentDiscoveryService"
+430-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:53:13-84
+431            android:directBootAware="true"
+431-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+432            android:exported="false" >
+432-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:54:13-37
+433            <meta-data
+433-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
+434                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+434-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
+435                android:value="com.google.firebase.components.ComponentRegistrar" />
+435-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
+436            <meta-data
+436-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+437                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+437-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+438                android:value="com.google.firebase.components.ComponentRegistrar" />
+438-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+439            <meta-data
+439-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+440                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+440-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+441                android:value="com.google.firebase.components.ComponentRegistrar" />
+441-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+442        </service>
+443
+444        <receiver
+444-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:40:9-46:20
+445            android:name="com.razorpay.RzpTokenReceiver"
+445-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:41:13-57
+446            android:exported="false" >
+446-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:42:13-37
+447            <intent-filter>
+447-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:43:13-45:29
+448                <action android:name="rzp.device_token.share" />
+448-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:44:17-65
+448-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:44:25-62
+449            </intent-filter>
+450        </receiver>
+451
+452        <activity
+452-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:48:9-60:20
+453            android:name="com.razorpay.CheckoutActivity"
+453-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:49:13-57
+454            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+454-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:50:13-83
+455            android:exported="true"
+455-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:51:13-36
+456            android:theme="@style/CheckoutTheme" >
+456-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:52:13-49
+457            <intent-filter>
+457-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:53:13-59:29
+458                <action android:name="android.intent.action.MAIN" />
+458-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:17-69
+458-->C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:25-66
+459
+460                <data
+460-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:15:13-17:38
+461                    android:host="rzp.io"
+462                    android:scheme="io.rzp" />
+462-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:17:17-35
+463            </intent-filter>
+464        </activity>
+465
+466        <meta-data
+466-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:62:9-64:58
+467            android:name="com.razorpay.plugin.googlepay_all"
+467-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:63:13-61
+468            android:value="com.razorpay.RzpGpayMerged" />
+468-->[com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:64:13-55
+469
+470        <service
+470-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+471            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+471-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+472            android:exported="false" >
+472-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+473            <meta-data
+473-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+474                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+474-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+475                android:value="cct" />
+475-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+476        </service>
+477        <service
+477-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+478            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+478-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+479            android:exported="false"
+479-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+480            android:permission="android.permission.BIND_JOB_SERVICE" >
+480-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+481        </service>
+482
+483        <receiver
+483-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+484            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+484-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+485            android:exported="false" />
+485-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+486
+487        <provider
+487-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+488            android:name="com.google.firebase.provider.FirebaseInitProvider"
+488-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+489            android:authorities="com.rankerspoint.academy.firebaseinitprovider"
+489-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+490            android:directBootAware="true"
+490-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+491            android:exported="false"
+491-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+492            android:initOrder="100" />
+492-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+493
+494        <activity
+494-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+495            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+495-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+496            android:excludeFromRecents="true"
+496-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+497            android:exported="false"
+497-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+498            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+498-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+499        <!--
+500            Service handling Google Sign-In user revocation. For apps that do not integrate with
+501            Google Sign-In, this service will never be started.
+502        -->
+503        <service
+503-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+504            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+504-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+505            android:exported="true"
+505-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+506            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+506-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+507        <uses-library
+507-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+508            android:name="org.apache.http.legacy"
+508-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+509            android:required="false" />
+509-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+510
+511        <activity
+511-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+512            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+512-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+513            android:exported="false"
+513-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+514            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+514-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+515
+516        <meta-data
+516-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+517            android:name="com.google.android.gms.version"
+517-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+518            android:value="@integer/google_play_services_version" />
+518-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+519
+520        <provider
+520-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+521            android:name="androidx.startup.InitializationProvider"
+521-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+522            android:authorities="com.rankerspoint.academy.androidx-startup"
+522-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+523            android:exported="false" >
+523-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+524            <meta-data
+524-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+525                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+525-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+526                android:value="androidx.startup" />
+526-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+527            <meta-data
+527-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+528                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+528-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+529                android:value="androidx.startup" />
+529-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+530        </provider>
+531    </application>
+532
+533</manifest>

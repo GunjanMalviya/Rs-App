@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nest_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:text="This Batch Includes"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/eight_dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/thirty_two_dp"
+                        android:layout_height="@dimen/thirty_two_dp"
+                        android:src="@drawable/ic_calender_foreground"
+                        app:civ_circle_background_color="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:background="@color/white_color"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration:"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 April 2023 -15 November 2023"
+                            android:textColor="@color/black_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/eight_dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/thirty_two_dp"
+                        android:layout_height="@dimen/thirty_two_dp"
+                        android:src="@drawable/ic_star"
+                        app:civ_circle_background_color="@color/light_grey" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:text="Live Lectures"
+                        android:textColor="@color/black_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/eight_dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/thirty_two_dp"
+                        android:layout_height="@dimen/thirty_two_dp"
+                        android:src="@drawable/ic_star"
+                        app:civ_circle_background_color="@color/light_grey" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:text="One to one doubt solving"
+                        android:textColor="@color/black_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/eight_dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/thirty_two_dp"
+                        android:layout_height="@dimen/thirty_two_dp"
+                        android:src="@drawable/ic_star"
+                        app:civ_circle_background_color="@color/light_grey" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:layout_marginRight="@dimen/ten_dp"
+                        android:text="One to one guidance and support through a mentorship program"
+                        android:textColor="@color/black_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/five_dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/thirty_two_dp"
+                        android:layout_height="@dimen/thirty_two_dp"
+                        android:src="@drawable/ic_star"
+                        app:civ_circle_background_color="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:background="@color/white_color"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subjects:"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subject 1, Subject 2"
+                            android:textColor="@color/black_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/three_dp"
+                android:background="@color/white_color"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:text="Know Your Teachers"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    app:cardBackgroundColor="@color/light_grey"
+                    android:layout_marginLeft="@dimen/eight_dp"
+                    app:cardCornerRadius="@dimen/five_dp"
+                    android:layout_width="165dp"
+                    android:layout_height="270dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <androidx.cardview.widget.CardView
+                            app:cardBackgroundColor="@color/black_dark"
+                            app:cardCornerRadius="@dimen/three_dp"
+                            android:layout_width="160dp"
+                            android:layout_margin="@dimen/three_dp"
+                            android:layout_gravity="center|top"
+                            android:layout_height="210dp">
+                            <RelativeLayout
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="165dp"
+                                    android:src="@drawable/my_logo"
+                                    android:layout_height="220dp"
+                                    app:civ_circle_background_color="@color/grey_trans" />
+
+                                <TextView
+                                    android:layout_marginBottom="@dimen/eight_dp"
+                                    android:layout_width="150dp"
+                                    android:layout_height="28dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginLeft="@dimen/ten_dp"
+                                    android:layout_marginRight="@dimen/ten_dp"
+                                    android:background="@drawable/round_button"
+                                    android:backgroundTint="@color/white_color"
+                                    android:gravity="center"
+                                    android:text="Xyz Sir"
+                                    android:textColor="@color/black_color"
+                                    android:textSize="14sp" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_margin="@dimen/ten_dp"
+                            android:text="Quant 1"
+                            android:textColor="@color/black_color"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/ten_dp"
+                            android:text="Exp: 10 Yr"
+                            android:textColor="@color/black_dark"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="@color/light_grey"
+                        android:layout_marginLeft="@dimen/eight_dp"
+                        app:cardCornerRadius="@dimen/five_dp"
+                        android:layout_width="165dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <androidx.cardview.widget.CardView
+                                app:cardBackgroundColor="@color/black_dark"
+                                app:cardCornerRadius="@dimen/three_dp"
+                                android:layout_width="160dp"
+                                android:layout_margin="@dimen/three_dp"
+                                android:layout_gravity="center|top"
+                                android:layout_height="210dp">
+                                <RelativeLayout
+                                    android:layout_gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:layout_width="165dp"
+                                        android:src="@drawable/my_logo"
+                                        android:layout_height="220dp"
+                                        app:civ_circle_background_color="@color/grey_trans" />
+
+                                    <TextView
+                                        android:layout_marginBottom="@dimen/eight_dp"
+                                        android:layout_width="150dp"
+                                        android:layout_height="28dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginLeft="@dimen/ten_dp"
+                                        android:layout_marginRight="@dimen/ten_dp"
+                                        android:background="@drawable/round_button"
+                                        android:backgroundTint="@color/white_color"
+                                        android:gravity="center"
+                                        android:text="Xyz Sir"
+                                        android:textColor="@color/black_color"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_margin="@dimen/ten_dp"
+                                android:text="Quant 1"
+                                android:textColor="@color/black_color"
+                                android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/ten_dp"
+                                android:text="Exp: 10 Yr"
+                                android:textColor="@color/black_dark"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/intro1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegEndDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="@string/title"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="@dimen/thirty_sp"
+                android:background="@color/grey_40" />
+
+            <TextView
+                android:id="@+id/txtLAnguage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/twenty_sp"
+                android:text="@string/title"
+                android:textColor="@color/black_color"
+
+                android:textSize="@dimen/forteen_sp"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+
+        &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/txt_free_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:layout_weight="2"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="Free Video.."
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_free_video_home"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/ten_sp"
+            android:layout_marginBottom="@dimen/ten_sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_vieaAll_Free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/five_dp"
+            android:background="@drawable/round_button_box"
+            android:gravity="center"
+            android:padding="@dimen/ten_sp"
+            android:text="@string/view_all"
+            android:textColor="@color/green"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/five_dp"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginBottom="@dimen/ten_sp"
+            android:background="@color/overlay_dark_20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/txt_dailyQuiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:layout_weight="2"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="Free Daily Quiz"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_quiz_free"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/ten_sp"
+            android:layout_marginBottom="@dimen/ten_sp"
+
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_viewAll_Quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/five_dp"
+            android:layout_weight="2"
+            android:background="@drawable/round_button_box"
+            android:gravity="center"
+            android:padding="@dimen/ten_sp"
+            android:text="@string/view_all"
+            android:textColor="@color/green"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:text="@string/description"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/fifteen_sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="0.5"
+
+                android:paddingLeft="@dimen/ten_sp"
+                android:src="@drawable/ic_outline_info_24"
+                android:text="@string/title"
+
+                android:textColor="@color/black_dark"
+                app:tint="@color/green"></ImageView>
+
+            <TextView
+                android:id="@+id/txtTeacherNm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="2.5"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="@string/title"
+
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/forteen_sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="0.5"
+
+                android:paddingLeft="@dimen/ten_sp"
+                android:src="@drawable/ic_outline_monetization_on_24"
+                android:text="@string/title"
+
+                android:textColor="@color/black_dark"
+                app:tint="@color/green"></ImageView>
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="2.5"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="@string/title"
+
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/forteen_sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten_sp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="0.5"
+
+                android:paddingLeft="@dimen/ten_sp"
+                android:src="@drawable/ic_baseline_language_24"
+                android:text="@string/title"
+
+                android:textColor="@color/black_dark"
+                app:tint="@color/green"></ImageView>
+
+            <TextView
+                android:id="@+id/txtlanguageetx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_weight="2.5"
+                android:paddingLeft="@dimen/ten_sp"
+                android:text="@string/title"
+
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/forteen_sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lbl_skip_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_sp"
+            android:layout_marginRight="@dimen/ten_sp"
+            android:background="@drawable/round_button_box"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/myriadpro_bold"
+                android:gravity="center"
+                android:paddingLeft="@dimen/fifteen_sp"
+                android:paddingTop="@dimen/ten_sp"
+                android:paddingRight="@dimen/fifteen_sp"
+                android:paddingBottom="@dimen/ten_sp"
+                android:text="Free Trial"
+                android:textColor="@color/green"
+
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"
+
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lbl_skip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thirty_two_dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/ten_sp"
+        android:background="@drawable/rounded_skip"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/skip_free"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/myriadpro_bold"
+            android:gravity="center"
+            android:text="SKIP"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold" />
+    </LinearLayout>-->
+
+</LinearLayout>

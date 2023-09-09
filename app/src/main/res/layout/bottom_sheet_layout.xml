@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+          android:hint="@string/type_ans"
+            android:inputType="text"
+            android:maxLines="2"
+            android:ellipsize="end"
+         android:id="@+id/edt_type_ans"
+
+           android:textColorHint="@color/black_color"
+            android:textColor="@color/black_color"
+
+            android:background="@color/light_blue_50"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_dp"
+        android:layout_marginTop="@dimen/ten_sp"
+android:background="@color/overlay_dark_30"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:weightSum="5"
+        android:layout_marginTop="@dimen/forty_dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="@dimen/forty_dp"
+
+
+            android:gravity="center"
+
+            android:id="@+id/linearlayout_camera"
+
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/twenty_five_sp"
+                android:layout_height="@dimen/twenty_five_sp"
+                app:tint="@color/theme_purple"
+                android:src="@drawable/camera"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_image"
+
+                android:textColor="@color/theme_purple"
+                android:textSize="@dimen/forteen_sp"
+
+                android:paddingLeft="@dimen/ten_sp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/bt_details"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/thirty_sp"
+            android:paddingLeft="@dimen/ten_sp"
+            android:paddingRight="@dimen/ten_sp"
+            android:text="@string/submit"
+            android:textSize="@dimen/twelve_sp"
+            android:textColor="@color/white_color"
+            android:background="@drawable/shape_rounded_corners"
+            />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

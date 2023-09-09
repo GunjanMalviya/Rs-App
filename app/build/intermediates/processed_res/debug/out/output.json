@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.rankerspoint.academy",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 32,
+        "versionName": "10.2",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.rankerspoint.academy",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

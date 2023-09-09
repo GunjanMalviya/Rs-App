@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/theme_centre_pink" />-->
+
+    <ImageView
+        android:layout_width="@dimen/sixty_dp"
+        android:layout_height="@dimen/sixty_dp"
+        android:layout_margin="@dimen/ten_dp"
+        android:src="@drawable/my_logo" />
+
+    <ImageView
+        android:id="@+id/iv_study"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/study" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_mlarge">
+
+        <!-- <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:layout_width="@dimen/sixty_dp"
+                 android:layout_height="@dimen/sixty_dp"
+                 android:src="@drawable/learn" />
+
+
+         </RelativeLayout>
+  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fifty_dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Welcome"
+                android:textAlignment="center"
+                android:textColor="@color/theme_purple"
+                android:textSize="@dimen/twenty_four_dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="to Rankers Point"
+                android:textAlignment="center"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/twenty_two_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:singleLine="true"
+                android:text="Best Teacher | Affordable Pricing | Live Batches | Notes"
+                android:textAlignment="center"
+                android:textColor="@color/black_dark"
+                android:textSize="@dimen/eight_dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:background="@drawable/ed_background"
+                android:layout_height="wrap_content">
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    app:ccp_showFlag="true"
+                    android:paddingStart="@dimen/five_dp"
+                    android:gravity="center_vertical"
+                    app:ccp_defaultNameCode="IN"
+                    app:ccp_hideNameCode="true"
+                    />
+
+                <EditText
+                    android:id="@+id/edt_txt_emailmob"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty_dp"
+                    android:hint="@string/plz_enter_mobile"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:padding="@dimen/eight_dp"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:textColor="@color/theme_centre_pink"
+                    android:textColorHint="@color/black_dark"
+                    android:textSize="@dimen/sixteen_sp"
+                    android:theme="@style/Widget.AppCompat.EditText" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_ForgetPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="12dp"
+                android:gravity="right"
+                android:text="@string/forgot_pwd"
+                android:textColor="@color/theme_centre_pink"
+                android:textSize="@dimen/fifteen_sp"
+                android:textStyle="bold|italic"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="@dimen/twenty_four_dp"
+       android:layout_alignParentBottom="true">
+       <Button
+           android:id="@+id/btn_go"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/round_button_box"
+           android:backgroundTint="@color/theme_centre_pink"
+           android:text="Continue"
+           android:textAllCaps="false"
+           android:textColor="@color/white_color"
+           android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/three_dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/by_continuing_you_agree"
+           android:textColor="@color/black_color"
+           android:textSize="@dimen/ten_sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_nd_conditions"
+            android:textColor="@color/theme_pink"
+            android:textSize="@dimen/ten_sp"/>
+    </LinearLayout>
+   </LinearLayout>
+
+</RelativeLayout>

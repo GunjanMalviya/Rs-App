@@ -1,0 +1,1357 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:355:9-364:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:360:13-47
+	android:enabled
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:358:13-35
+	android:authorities
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:357:13-64
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:359:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:356:13-62
+manifest
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ba56a1bd9894cffcbe8931be3e2fb003\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ef3776ecd2a86bcc9c48ea19d538ce42\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.aabhasr1:OtpView:v1.1.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\90cd3588ddb36fa54292e43bde711a42\jetified-OtpView-v1.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cb2c6daed6cf878638ae8f9c1a92f574\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.evgenyneu:js-evaluator-for-android:v4.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a1db4a0fe1e31ff563a5183deb4a9d5a\jetified-js-evaluator-for-android-v4.0.0\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\818caca5a7637857d9fff5a114d10fce\appcompat-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d77cfa8c272909bbee2787c25cd8fc52\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\84c120772d7f2bef8ed43f3688043ba7\jetified-exoplayer-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6eee8d4ca8dadbcab84a6a4f3776e1a3\jetified-exoplayer-ui-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\be30073d6424c4c2e4dadbbf09048960\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ad591801aa7e1779d8e2dd0507aa5ff9\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\617a5a79bbbb41b9a9a01702182c0e1d\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0fce2d874ed4e2121fae96bb47f6ad8e\jetified-pdfium-android-1.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a15042ea8a8fe72bb1a4600fec939cc1\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82b52dfaa1cae0fdbd244f9b1892f153\jetified-play-services-location-20.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:17:1-61:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c99d35d53931d681c2c99e9afcf6df65\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1ef61a9f7c4ffc88d8a5d8d13a5b30d6\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5be98ca90e6e444f05196862514e3f29\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\180b70c601310b4999c383f6995bc253\jetified-material-ripple-1.0.2\AndroidManifest.xml:2:1-14:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\349e548fdc56cc9c1e006e758da53630\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\751fa9d3d7e1dc6ac2e0d35306b46bfe\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5956919e09a2d6cb70b3ff016baf43dc\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c49e06395887bb0b40bf70375fc7464e\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\73b3cd9b146bd5a40be4132106c9f5f3\jetified-exoplayer-rtsp-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ff812d00f4b4a97d317662c2d438a395\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\22a390d295b1c2d0aee5c9a41f0d7c2a\jetified-exoplayer-transformer-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\8c49bd7f77a128c7675aeaa5f5a0d6bf\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:2:1-67:12
+MERGED from [com.localebro:okhttpprofiler:1.0.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d05d39de910559236a4dcd2265f96920\jetified-okhttpprofiler-1.0.8\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a1b518c8e6af2b4f6619b1d39678d4b\jetified-flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.joielechong:countrycodepicker:2.4.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\df4ef68a8fb97303845e16be438195fd\jetified-countrycodepicker-2.4.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d07c537bdfeb0c01c6a0f950d592fdee\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\4d691defef7f8c6e2c29002d95effeed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2711dc70f3de42574df35f750ad68fef\jetified-play-services-wallet-18.1.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\dd4ee5ec4489323fdb85bb6c75889d78\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bfad64dbcc14f5e286c53cacbd9e9f7\jetified-play-services-identity-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b20adf6ac769a0c1dadcd831f9dbbd59\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6dc6c192afabf30e569214505a5fd11e\jetified-firebase-installations-interop-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6844e7bc214221eb0ecc7382b74f3d08\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\55bb0ae01909c72928c283774f2b5a64\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\363b2a9ef9dc4a1478fef4d446a5c39a\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b96bebc1a6a358924f883944f80acc72\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b79f77a67a6f41377547ee84f655842c\jetified-activity-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\fe25881d2fd478869fe3b276ea8c22d9\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1f11341e3dd2fd4afdb7c0cef26634db\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ddaf34e1b82408c72f5ca03f9903280d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa4191e2074ad9fa4978e01887100ea4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f15798388f6a04dcf51e015ea37462cc\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\04318520c4948f0fdf8766c7f904c1eb\jetified-lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a8bae124c3947370f1783ee1a77bca69\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\30af2db0fec987e686b40e127dde7b3b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2d64b8dcb237f2a83ffa634096a91233\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de75e1783e17072897742374f5c7d2\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5636c5ab21dfc8835e709c713561957b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d2a1022bee42a365f2ec59d0e815e0da\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f9bafef0ef3ca13bd028f1a7b18b51ad\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\959dc318404d81cf2ea6de1ec090c63d\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de1f900a45fe719882bbdc2d4ca5a9\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7b33e7a745ec81ec08dccce5eb9feda5\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\deab0282edf4d4c1828c56ad1248053d\media-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cbca41df6d3408463bfdae50587f26d2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3da034239bb3f6cc9146f66539d279fc\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d20afeedc3ed15ada0210204f5a1e14f\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e9527047a500925c1c741464c0457f78\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3791378c52bedbc40569180cd21d3f08\jetified-firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2cc68148c871eb7f5efed54fd852741d\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\084f075ef72480f8689d5d4cb5c9d448\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\210990dab406904ea6af0ade5189ebf0\lifecycle-runtime-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5d60a4d373d3133770930c5c3c80e982\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82975ba409e0884dc51b8d973f6b5e95\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bbcddf2ea69ff97f0f6439cd725475a\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0e7ae910e9333814205ee9a482dd2998\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\104f44e48856b4c4a892b8ae7f33a91f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\12b5f75167a87da253c772ac27ff20d4\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\66a20cbfb56c68de015668f571d7f22d\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7efebfd2dcdf9803d6fc9ae42d8ce759\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c498124b62bc62cf83888f432b17697e\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a4fcd5943f5dc0e81f5cb976be1446d\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c7d167968d3885fd30f0ee25ccb6e23b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d0c32ce25a22f9c36289965cc539f599\jetified-relinker-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.5] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b0f5abc3905561c35879082882780389\jetified-libphonenumber-android-8.12.5\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+	package
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:1-367:12
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\8c49bd7f77a128c7675aeaa5f5a0d6bf\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\8c49bd7f77a128c7675aeaa5f5a0d6bf\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\084f075ef72480f8689d5d4cb5c9d448\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\084f075ef72480f8689d5d4cb5c9d448\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:9:5-67
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:9:5-67
+MERGED from [com.localebro:okhttpprofiler:1.0.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d05d39de910559236a4dcd2265f96920\jetified-okhttpprofiler-1.0.8\AndroidManifest.xml:11:5-67
+MERGED from [com.localebro:okhttpprofiler:1.0.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d05d39de910559236a4dcd2265f96920\jetified-okhttpprofiler-1.0.8\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:15:5-88
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:15:22-85
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:18:22-72
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:24:9-32
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:23:9-51
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:26:9-57
+application
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:29:5-365:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ba56a1bd9894cffcbe8931be3e2fb003\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ba56a1bd9894cffcbe8931be3e2fb003\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ef3776ecd2a86bcc9c48ea19d538ce42\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ef3776ecd2a86bcc9c48ea19d538ce42\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:13:5-16:19
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:13:5-16:19
+MERGED from [com.github.evgenyneu:js-evaluator-for-android:v4.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a1db4a0fe1e31ff563a5183deb4a9d5a\jetified-js-evaluator-for-android-v4.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.evgenyneu:js-evaluator-for-android:v4.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a1db4a0fe1e31ff563a5183deb4a9d5a\jetified-js-evaluator-for-android-v4.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82b52dfaa1cae0fdbd244f9b1892f153\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82b52dfaa1cae0fdbd244f9b1892f153\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:30:5-59:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1ef61a9f7c4ffc88d8a5d8d13a5b30d6\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1ef61a9f7c4ffc88d8a5d8d13a5b30d6\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\180b70c601310b4999c383f6995bc253\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\180b70c601310b4999c383f6995bc253\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:39:5-65:19
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:39:5-65:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bfad64dbcc14f5e286c53cacbd9e9f7\jetified-play-services-identity-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bfad64dbcc14f5e286c53cacbd9e9f7\jetified-play-services-identity-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b20adf6ac769a0c1dadcd831f9dbbd59\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b20adf6ac769a0c1dadcd831f9dbbd59\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6844e7bc214221eb0ecc7382b74f3d08\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6844e7bc214221eb0ecc7382b74f3d08\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\55bb0ae01909c72928c283774f2b5a64\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\55bb0ae01909c72928c283774f2b5a64\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\363b2a9ef9dc4a1478fef4d446a5c39a\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\363b2a9ef9dc4a1478fef4d446a5c39a\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bbcddf2ea69ff97f0f6439cd725475a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bbcddf2ea69ff97f0f6439cd725475a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:36:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:37:9-35
+	android:label
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:34:9-41
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:32:9-32
+	tools:ignore
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:40:9-48
+	android:allowAudioPlaybackCapture
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:30:9-50
+	android:largeHeap
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:35:9-33
+	android:icon
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:33:9-43
+	android:allowBackup
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:31:9-35
+	android:theme
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:38:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:39:9-44
+activity#com.rankerspoint.academy.Activity.SubjectActivity
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:42:13-53
+activity#com.rankerspoint.academy.Activity.GoExamMentorPost
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:47:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:45:13-54
+activity#com.rankerspoint.academy.Activity.ViewAllCouse_SubCategory
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:51:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:49:13-62
+activity#com.rankerspoint.academy.Activity.ViewAllFeeQuizListDashboard
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:55:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:53:13-65
+activity#com.rankerspoint.academy.Activity.Free_View_AllVideo
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:56:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:59:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:57:13-56
+activity#com.rankerspoint.academy.Activity.GetHomeAllResults
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:60:9-63:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:63:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:61:13-55
+activity#com.rankerspoint.academy.Activity.ViewAll_QuizTestSeries
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:67:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:65:13-60
+activity#com.rankerspoint.academy.Activity.MocktestViewAnswerWebView
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:68:9-71:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:71:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:69:13-63
+activity#com.rankerspoint.academy.Activity.ResultWebView
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:72:9-75:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:75:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:73:13-51
+activity#com.rankerspoint.academy.Activity.MockTestWebView
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:76:9-80:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:80:13-49
+	android:noHistory
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:79:13-37
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:77:13-53
+activity#com.rankerspoint.academy.Activity.SaveNotesAllPdfandNotes
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:81:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:84:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:82:13-61
+activity#com.rankerspoint.academy.Activity.EditCommentMentor
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:88:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:87:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:86:13-55
+activity#com.rankerspoint.academy.WebViewDemo
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:89:9-91:40
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:90:13-40
+activity#com.rankerspoint.academy.Activity.MentorCommentReply
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:95:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:93:13-56
+activity#com.rankerspoint.academy.Activity.MentorCommentHome
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:99:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:97:13-55
+activity#com.rankerspoint.academy.Activity.MentorPostSingleTestDescription
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:103:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:101:13-69
+activity#com.rankerspoint.academy.Activity.MentorPost
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:104:9-107:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:107:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:105:13-48
+activity#com.rankerspoint.academy.Activity.LiveClassesVideo
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:108:9-111:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:111:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:109:13-54
+activity#com.rankerspoint.academy.Activity.LiveClassesListActivity
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:112:9-115:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:115:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:113:13-61
+activity#com.rankerspoint.academy.Activity.PaymentSuccessfully
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:116:9-119:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:119:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:117:13-57
+activity#com.rankerspoint.academy.Activity.VideoSeriesList
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:120:9-123:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:123:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:121:13-53
+activity#com.rankerspoint.academy.Activity.YourExamsList
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:124:9-127:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:127:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:126:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:125:13-51
+activity#com.rankerspoint.academy.Activity.YourPdfNotesOffline
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:128:9-130:40
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:129:13-57
+activity#com.rankerspoint.academy.Activity.PdfViewDemo
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:131:9-133:40
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:132:13-49
+activity#com.rankerspoint.academy.Activity.DailyNewsActivity
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:137:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:135:13-55
+activity#com.rankerspoint.academy.Activity.DailyGK
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:138:9-141:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:141:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:139:13-45
+activity#com.rankerspoint.academy.Activity.ForgetPassword
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:142:9-145:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:145:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:144:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:143:13-52
+activity#com.rankerspoint.academy.Activity.VideoSeries
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:146:9-149:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:149:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:147:13-49
+activity#com.rankerspoint.academy.Activity.HomePdfNotesCategory
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:150:9-153:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:153:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:152:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:151:13-58
+activity#com.rankerspoint.academy.Activity.HomeNotesPdf
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:154:9-157:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:157:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:156:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:155:13-50
+activity#com.rankerspoint.academy.Activity.TopicQuizIndividual
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:158:9-161:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:161:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:160:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:159:13-57
+activity#com.rankerspoint.academy.Activity.TopicWisePdf
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:162:9-165:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:165:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:163:13-50
+activity#com.rankerspoint.academy.Activity.EmailRegister
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:166:9-169:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:169:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:168:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:167:13-51
+activity#com.rankerspoint.academy.Activity.PaymentCheckOut
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:170:9-173:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:173:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:171:13-53
+activity#com.rankerspoint.academy.Activity.ViewMockTestSeries
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:174:9-177:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:177:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:176:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:175:13-56
+activity#com.rankerspoint.academy.Activity.PdfReaderFile
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:178:9-181:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:181:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:180:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:179:13-51
+activity#com.rankerspoint.academy.Activity.OfflineVideoList
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:182:9-185:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:185:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:184:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:183:13-54
+activity#com.rankerspoint.academy.Activity.ExoplayerOffline
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:186:9-189:53
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:189:13-50
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:188:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:187:13-54
+activity#com.rankerspoint.academy.Activity.MockQuestionAttempts
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:190:9-193:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:193:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:192:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:191:13-58
+activity#com.rankerspoint.academy.Activity.MockSeriesListActivity
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:194:9-197:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:197:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:196:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:195:13-60
+activity#com.rankerspoint.academy.Activity.MockTestSeries
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:198:9-201:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:201:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:200:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:199:13-52
+activity#com.rankerspoint.academy.Activity.ExoYoutPlayer
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:202:9-205:53
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:205:13-50
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:204:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:203:13-51
+activity#com.rankerspoint.academy.Activity.EmbadedPlayer
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:206:9-210:53
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:210:13-50
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:209:13-37
+	android:configChanges
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:208:13-48
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:207:13-51
+activity#com.rankerspoint.academy.Activity.Otp_Verification
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:211:9-214:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:214:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:213:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:212:13-54
+activity#com.rankerspoint.academy.Activity.GetAllResults
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:215:9-218:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:218:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:217:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:216:13-51
+activity#com.rankerspoint.academy.Activity.ViewAnswerKey
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:219:9-222:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:222:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:221:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:220:13-51
+activity#com.rankerspoint.academy.Activity.Mobile_Registration
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:223:9-226:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:226:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:225:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:224:13-57
+activity#com.rankerspoint.academy.Activity.AllQuestionAttempt
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:227:9-231:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:231:13-49
+	android:noHistory
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:230:13-37
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:229:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:228:13-56
+activity#com.rankerspoint.academy.Activity.ExamSeries
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:232:9-235:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:235:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:234:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:233:13-48
+activity#com.rankerspoint.academy.Activity.Results
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:236:9-239:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:239:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:238:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:237:13-45
+activity#com.rankerspoint.academy.Activity.YourProfile
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:240:9-243:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:243:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:242:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:241:13-49
+activity#com.rankerspoint.academy.Activity.SingleDoubtDetails
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:244:9-247:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:247:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:246:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:245:13-56
+activity#com.rankerspoint.academy.Activity.AllDoubtsCourse
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:248:9-251:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:251:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:250:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:249:13-53
+activity#com.rankerspoint.academy.Activity.MyDoubts
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:252:9-255:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:255:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:254:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:253:13-46
+activity#com.rankerspoint.academy.Activity.Doubts_Topic
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:256:9-259:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:259:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:258:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:257:13-50
+activity#com.rankerspoint.academy.Activity.Indiviual_Topic
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:264:9-267:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:267:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:266:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:265:13-53
+activity#com.rankerspoint.academy.Activity.SyllabusSingle
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:268:9-271:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:271:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:270:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:269:13-52
+activity#com.rankerspoint.academy.Activity.MultiTabSyllabus
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:272:9-275:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:275:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:274:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:273:13-54
+activity#com.rankerspoint.academy.Activity.YoutubePlayerLiveClasses
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:276:9-279:40
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:279:13-37
+	android:configChanges
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:278:13-74
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:277:13-62
+activity#com.rankerspoint.academy.Activity.SingleCourseDetails
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:280:9-283:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:283:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:282:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:281:13-57
+activity#com.rankerspoint.academy.Activity.GetAllCourseSubCategory
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:284:9-287:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:287:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:286:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:285:13-61
+activity#com.rankerspoint.academy.Activity.No_Internet_Conn
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:288:9-291:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:291:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:290:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:289:13-54
+activity#com.rankerspoint.academy.Activity.SubCategoryClass
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:292:9-295:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:295:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:294:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:293:13-54
+activity#com.rankerspoint.academy.Activity.Settings
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:296:9-299:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:299:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:298:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:297:13-46
+activity#com.rankerspoint.academy.Activity.SignUp
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:300:9-303:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:303:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:302:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:301:13-44
+activity#com.rankerspoint.academy.Activity.MyProfile
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:304:9-307:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:307:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:306:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:305:13-47
+activity#com.rankerspoint.academy.Activity.PrePareExam
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:308:9-311:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:311:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:310:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:309:13-49
+activity#com.rankerspoint.academy.Activity.Login
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:312:9-315:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:315:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:314:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:313:13-43
+activity#com.rankerspoint.academy.Activity.IntroActivity
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:316:9-319:52
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:319:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:318:13-37
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:317:13-51
+activity#com.rankerspoint.academy.Activity.Splash
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:320:9-329:20
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:323:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:322:13-36
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:321:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:324:13-328:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:17-69
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:325:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:327:17-77
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:327:27-74
+activity#com.rankerspoint.academy.Activity.Dashboard
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:330:9-334:59
+	android:screenOrientation
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:333:13-49
+	android:exported
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:332:13-37
+	android:theme
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:334:13-56
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:331:13-47
+meta-data#com.razorpay.ApiKey
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:336:9-338:55
+	android:value
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:338:13-52
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:337:13-47
+meta-data#preloaded_fonts
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:339:9-341:57
+	android:resource
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:341:13-54
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:340:13-43
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:342:9-344:52
+	android:resource
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:344:13-49
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:343:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:345:9-347:49
+	android:resource
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:347:13-46
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:346:13-84
+uses-sdk
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ba56a1bd9894cffcbe8931be3e2fb003\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ba56a1bd9894cffcbe8931be3e2fb003\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ef3776ecd2a86bcc9c48ea19d538ce42\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ef3776ecd2a86bcc9c48ea19d538ce42\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.aabhasr1:OtpView:v1.1.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\90cd3588ddb36fa54292e43bde711a42\jetified-OtpView-v1.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.aabhasr1:OtpView:v1.1.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\90cd3588ddb36fa54292e43bde711a42\jetified-OtpView-v1.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cb2c6daed6cf878638ae8f9c1a92f574\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cb2c6daed6cf878638ae8f9c1a92f574\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0d61887f2144d7932fa57aa3f60b2fe4\jetified-android-youtubeExtractor-v2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.evgenyneu:js-evaluator-for-android:v4.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a1db4a0fe1e31ff563a5183deb4a9d5a\jetified-js-evaluator-for-android-v4.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.evgenyneu:js-evaluator-for-android:v4.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a1db4a0fe1e31ff563a5183deb4a9d5a\jetified-js-evaluator-for-android-v4.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\818caca5a7637857d9fff5a114d10fce\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\818caca5a7637857d9fff5a114d10fce\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d77cfa8c272909bbee2787c25cd8fc52\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d77cfa8c272909bbee2787c25cd8fc52\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\84c120772d7f2bef8ed43f3688043ba7\jetified-exoplayer-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\84c120772d7f2bef8ed43f3688043ba7\jetified-exoplayer-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6eee8d4ca8dadbcab84a6a4f3776e1a3\jetified-exoplayer-ui-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6eee8d4ca8dadbcab84a6a4f3776e1a3\jetified-exoplayer-ui-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\be30073d6424c4c2e4dadbbf09048960\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\be30073d6424c4c2e4dadbbf09048960\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ad591801aa7e1779d8e2dd0507aa5ff9\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ad591801aa7e1779d8e2dd0507aa5ff9\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\617a5a79bbbb41b9a9a01702182c0e1d\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\617a5a79bbbb41b9a9a01702182c0e1d\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0fce2d874ed4e2121fae96bb47f6ad8e\jetified-pdfium-android-1.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0fce2d874ed4e2121fae96bb47f6ad8e\jetified-pdfium-android-1.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a15042ea8a8fe72bb1a4600fec939cc1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a15042ea8a8fe72bb1a4600fec939cc1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82b52dfaa1cae0fdbd244f9b1892f153\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82b52dfaa1cae0fdbd244f9b1892f153\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c99d35d53931d681c2c99e9afcf6df65\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c99d35d53931d681c2c99e9afcf6df65\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1ef61a9f7c4ffc88d8a5d8d13a5b30d6\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1ef61a9f7c4ffc88d8a5d8d13a5b30d6\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5be98ca90e6e444f05196862514e3f29\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5be98ca90e6e444f05196862514e3f29\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\180b70c601310b4999c383f6995bc253\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\180b70c601310b4999c383f6995bc253\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\349e548fdc56cc9c1e006e758da53630\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\349e548fdc56cc9c1e006e758da53630\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\751fa9d3d7e1dc6ac2e0d35306b46bfe\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\751fa9d3d7e1dc6ac2e0d35306b46bfe\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5956919e09a2d6cb70b3ff016baf43dc\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5956919e09a2d6cb70b3ff016baf43dc\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c49e06395887bb0b40bf70375fc7464e\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c49e06395887bb0b40bf70375fc7464e\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\73b3cd9b146bd5a40be4132106c9f5f3\jetified-exoplayer-rtsp-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\73b3cd9b146bd5a40be4132106c9f5f3\jetified-exoplayer-rtsp-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ff812d00f4b4a97d317662c2d438a395\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ff812d00f4b4a97d317662c2d438a395\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\22a390d295b1c2d0aee5c9a41f0d7c2a\jetified-exoplayer-transformer-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\22a390d295b1c2d0aee5c9a41f0d7c2a\jetified-exoplayer-transformer-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\8c49bd7f77a128c7675aeaa5f5a0d6bf\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\8c49bd7f77a128c7675aeaa5f5a0d6bf\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:5:5-7:41
+MERGED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:5:5-7:41
+MERGED from [com.localebro:okhttpprofiler:1.0.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d05d39de910559236a4dcd2265f96920\jetified-okhttpprofiler-1.0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.localebro:okhttpprofiler:1.0.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d05d39de910559236a4dcd2265f96920\jetified-okhttpprofiler-1.0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a1b518c8e6af2b4f6619b1d39678d4b\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a1b518c8e6af2b4f6619b1d39678d4b\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.joielechong:countrycodepicker:2.4.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\df4ef68a8fb97303845e16be438195fd\jetified-countrycodepicker-2.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.joielechong:countrycodepicker:2.4.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\df4ef68a8fb97303845e16be438195fd\jetified-countrycodepicker-2.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d07c537bdfeb0c01c6a0f950d592fdee\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d07c537bdfeb0c01c6a0f950d592fdee\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\4d691defef7f8c6e2c29002d95effeed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\4d691defef7f8c6e2c29002d95effeed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2711dc70f3de42574df35f750ad68fef\jetified-play-services-wallet-18.1.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2711dc70f3de42574df35f750ad68fef\jetified-play-services-wallet-18.1.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\dd4ee5ec4489323fdb85bb6c75889d78\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\dd4ee5ec4489323fdb85bb6c75889d78\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bfad64dbcc14f5e286c53cacbd9e9f7\jetified-play-services-identity-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bfad64dbcc14f5e286c53cacbd9e9f7\jetified-play-services-identity-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b20adf6ac769a0c1dadcd831f9dbbd59\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b20adf6ac769a0c1dadcd831f9dbbd59\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6dc6c192afabf30e569214505a5fd11e\jetified-firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6dc6c192afabf30e569214505a5fd11e\jetified-firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6844e7bc214221eb0ecc7382b74f3d08\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\6844e7bc214221eb0ecc7382b74f3d08\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\55bb0ae01909c72928c283774f2b5a64\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\55bb0ae01909c72928c283774f2b5a64\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\363b2a9ef9dc4a1478fef4d446a5c39a\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\363b2a9ef9dc4a1478fef4d446a5c39a\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b96bebc1a6a358924f883944f80acc72\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b96bebc1a6a358924f883944f80acc72\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b79f77a67a6f41377547ee84f655842c\jetified-activity-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b79f77a67a6f41377547ee84f655842c\jetified-activity-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\fe25881d2fd478869fe3b276ea8c22d9\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\fe25881d2fd478869fe3b276ea8c22d9\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1f11341e3dd2fd4afdb7c0cef26634db\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\1f11341e3dd2fd4afdb7c0cef26634db\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ddaf34e1b82408c72f5ca03f9903280d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\ddaf34e1b82408c72f5ca03f9903280d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa4191e2074ad9fa4978e01887100ea4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa4191e2074ad9fa4978e01887100ea4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f15798388f6a04dcf51e015ea37462cc\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f15798388f6a04dcf51e015ea37462cc\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\04318520c4948f0fdf8766c7f904c1eb\jetified-lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\04318520c4948f0fdf8766c7f904c1eb\jetified-lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a8bae124c3947370f1783ee1a77bca69\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a8bae124c3947370f1783ee1a77bca69\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\30af2db0fec987e686b40e127dde7b3b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\30af2db0fec987e686b40e127dde7b3b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2d64b8dcb237f2a83ffa634096a91233\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2d64b8dcb237f2a83ffa634096a91233\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de75e1783e17072897742374f5c7d2\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de75e1783e17072897742374f5c7d2\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5636c5ab21dfc8835e709c713561957b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5636c5ab21dfc8835e709c713561957b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d2a1022bee42a365f2ec59d0e815e0da\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d2a1022bee42a365f2ec59d0e815e0da\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f9bafef0ef3ca13bd028f1a7b18b51ad\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\f9bafef0ef3ca13bd028f1a7b18b51ad\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\959dc318404d81cf2ea6de1ec090c63d\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\959dc318404d81cf2ea6de1ec090c63d\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de1f900a45fe719882bbdc2d4ca5a9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\83de1f900a45fe719882bbdc2d4ca5a9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7b33e7a745ec81ec08dccce5eb9feda5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7b33e7a745ec81ec08dccce5eb9feda5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\deab0282edf4d4c1828c56ad1248053d\media-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\deab0282edf4d4c1828c56ad1248053d\media-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cbca41df6d3408463bfdae50587f26d2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cbca41df6d3408463bfdae50587f26d2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3da034239bb3f6cc9146f66539d279fc\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3da034239bb3f6cc9146f66539d279fc\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\40eafb6040f43a9bbfc049f68741a8a9\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d20afeedc3ed15ada0210204f5a1e14f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d20afeedc3ed15ada0210204f5a1e14f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e9527047a500925c1c741464c0457f78\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e9527047a500925c1c741464c0457f78\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3791378c52bedbc40569180cd21d3f08\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\3791378c52bedbc40569180cd21d3f08\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2cc68148c871eb7f5efed54fd852741d\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\2cc68148c871eb7f5efed54fd852741d\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\084f075ef72480f8689d5d4cb5c9d448\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\084f075ef72480f8689d5d4cb5c9d448\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\210990dab406904ea6af0ade5189ebf0\lifecycle-runtime-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\210990dab406904ea6af0ade5189ebf0\lifecycle-runtime-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5d60a4d373d3133770930c5c3c80e982\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5d60a4d373d3133770930c5c3c80e982\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82975ba409e0884dc51b8d973f6b5e95\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\82975ba409e0884dc51b8d973f6b5e95\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bbcddf2ea69ff97f0f6439cd725475a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0bbcddf2ea69ff97f0f6439cd725475a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0e7ae910e9333814205ee9a482dd2998\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0e7ae910e9333814205ee9a482dd2998\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\104f44e48856b4c4a892b8ae7f33a91f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\104f44e48856b4c4a892b8ae7f33a91f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\12b5f75167a87da253c772ac27ff20d4\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\12b5f75167a87da253c772ac27ff20d4\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\66a20cbfb56c68de015668f571d7f22d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\66a20cbfb56c68de015668f571d7f22d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7efebfd2dcdf9803d6fc9ae42d8ce759\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\7efebfd2dcdf9803d6fc9ae42d8ce759\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c498124b62bc62cf83888f432b17697e\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c498124b62bc62cf83888f432b17697e\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a4fcd5943f5dc0e81f5cb976be1446d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\5a4fcd5943f5dc0e81f5cb976be1446d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c7d167968d3885fd30f0ee25ccb6e23b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c7d167968d3885fd30f0ee25ccb6e23b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d0c32ce25a22f9c36289965cc539f599\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d0c32ce25a22f9c36289965cc539f599\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.5] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b0f5abc3905561c35879082882780389\jetified-libphonenumber-android-8.12.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.5] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b0f5abc3905561c35879082882780389\jetified-libphonenumber-android-8.12.5\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:361:13-363:56
+	android:resource
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:363:17-53
+	android:name
+		ADDED from C:\Users\Gunjan\Desktop\EduWork\RankersPoint\app\src\main\AndroidManifest.xml:362:17-67
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\cf755685fd07aa1b4defe6ac9c68032f\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:35:13-37:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:48:13-50:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:48:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:49:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:49:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:53:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\0cdcfb49a2a488888692027da5218505\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
+queries
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:11:5-37:15
+intent
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:12:9-18:18
+action#android.intent.action.VIEW
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:13:21-62
+data
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:15:13-17:38
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:17:17-35
+	android:mimeType
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:16:17-39
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:40:9-46:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:41:13-57
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:43:13-45:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:44:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:44:25-62
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:48:9-60:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:51:13-36
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:50:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:49:13-57
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:53:13-59:29
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:62:9-64:58
+	android:value
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:64:13-55
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.24] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b51c71f9ec7414e68e1fef952d42ff2d\jetified-checkout-1.6.24\AndroidManifest.xml:63:13-61
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\80228a2da8b52bff5ad45afba5afe803\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\a2a1241edfa5251230025a5cf982117a\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\d443c030d41122eeac4925a1efb22a5c\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\c9aed598c34070127d6a5665c46db33f\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\e8890e817657846be57f21aa9a91072b\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\aa06509ab6be4e9bb4614bbadffeb6e9\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\de879ecc2d38924ebb6fc26012b83fbd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\51a3a19a36a8bd2de93407338f9c0ad9\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\899ab2e792ef4ffee7c79ee78b4c5f90\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b4b961492b4e9cf738d7fb802dd518eb\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\b7d7f6a3424de817e65076569503c774\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gunjan\Downloads\microsoft-jdk-11.0.18-windows-x64\jdk-11.0.18+10\bin\caches\transforms-2\files-2.1\157c649832b13054c0a13a5a59dca4b7\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.rankerspoint.academy.test",
+  "variantName": "debugAndroidTest",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 32,
+      "versionName": "10.2",
+      "enabled": true,
+      "outputFile": "app-debug-androidTest.apk"
+    }
+  ]
+}

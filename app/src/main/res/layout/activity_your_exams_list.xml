@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/prepare_exam"
+    >
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/serach_bg"
+            android:paddingRight="@dimen/fifty_dp"
+            android:textColorHint="@color/black_dark"
+            android:paddingLeft="@dimen/ten_sp"
+
+            android:hint="Search exam"
+            android:id="@+id/edt_search"
+            android:singleLine="true"
+            android:maxLines="1"
+
+
+
+            android:textSize="@dimen/fifteen_sp"
+            android:textColor="@color/black_color"
+            android:drawableLeft="@drawable/ic_search"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:drawableTint="@color/black_dark"
+            android:layout_marginRight="@dimen/eighty_dp"
+            android:layout_marginLeft="@dimen/ten_sp"></EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_exam"
+            android:textColor="@color/black_color"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/twenty_sp"
+            android:paddingLeft="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/twenty_sp"></TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/two_dp"
+    android:background="@color/overlay_dark_20"
+    android:layout_marginTop="@dimen/ten_sp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/twenty_sp"
+            android:visibility="gone"
+            android:id="@+id/recy_preexam"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/hundred_dp"
+            android:id="@+id/lnr_layout"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/no_data"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Record Found !!"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:textSize="@dimen/twenty_sp"
+                android:textColor="@color/blue_grey_900"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

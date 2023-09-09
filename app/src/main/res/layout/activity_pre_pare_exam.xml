@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    tools:context="com.rankerspoint.academy.Activity.PrePareExam">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_twenty_dp"
+        android:layout_marginTop="@dimen/twenty_sp"
+        android:padding="@dimen/ten_dp"
+        android:background="@color/theme_purple"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:text="@string/select_goal"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/eighteen_sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:text="@string/exam_can_be_changed"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/sixteen_sp" />
+    </LinearLayout>
+
+    <!--    <EditText
+            android:id="@+id/edt_search"
+            android:layout_marginTop="@dimen/twelve_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:background="@drawable/serach_bg"
+            android:backgroundTint="@color/black_color"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawableTint="@color/white_color"
+            android:hint="Search exam"
+            android:maxLines="1"
+            android:padding="@dimen/eight_dp"
+            android:singleLine="true"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/white_color"
+            android:textSize="@dimen/sixteen_sp" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_preexam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten_dp"
+        android:layout_marginTop="100dp"
+        android:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_subcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten_dp"
+        android:layout_marginTop="100dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lnr_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/no_data" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No Record Found !!"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/twenty_sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

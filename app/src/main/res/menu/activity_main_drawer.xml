@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_save"
+
+            android:title="Download Notes" />
+
+        <item
+            android:id="@+id/nav_down_app"
+            android:icon="@drawable/ic_outline_save_24"
+
+            android:title="Save Notes" />
+
+        <item
+            android:id="@+id/nav_Create_lead_agent"
+            android:icon="@drawable/ic_download"
+            android:title="Downloaded Videos" />
+
+        <item
+            android:id="@+id/nav_view_payment"
+            android:icon="@drawable/ic_purchase"
+            android:title="Your Purchases" />
+
+    </group>
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_your_exam"
+            android:icon="@drawable/ic_exam"
+            android:title="Your Exams"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_joinUs"
+            android:icon="@drawable/telegram"
+            android:title="Join Us"
+            android:visible="false" />
+
+    </group>
+
+</menu>

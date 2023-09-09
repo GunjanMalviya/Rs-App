@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="@dimen/five_dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/ten_sp"
+    android:id="@+id/card_all_Course"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@color/white_color"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+      >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="150dp"
+
+           android:layout_gravity="center"
+           android:adjustViewBounds="true"
+           android:src="@drawable/result_img"/>
+<!--    <View-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="135dp"-->
+<!--        android:layout_marginLeft="-50dp"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:background="@drawable/result_analys_bg"/>-->
+
+<!--    <View-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="-90dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:visibility="visible"-->
+<!--        android:background="@drawable/result_analys_bg"/>-->
+<!--    <View-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginBottom="-90dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:visibility="visible"-->
+<!--        android:background="@drawable/result_analys_bg"/>-->
+
+<!--    <View-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="135dp"-->
+
+<!--        android:layout_marginRight="-50dp"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:background="@drawable/result_analys_bg"/>-->
+<!--    <View-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+
+
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/my_logo"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white_color"
+    app:cardCornerRadius="@dimen/five_dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/five_dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+android:layout_marginTop="@dimen/twenty_sp"
+            android:padding="@dimen/five_dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.1"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.1"
+                        android:textColor="@color/black_color"
+                        android:fontFamily="@font/amethysta"
+                        android:gravity="left"
+                        android:text="@string/name"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_title"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.9"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/black_color"
+                        android:text="@string/title"
+                        android:fontFamily="@font/amethysta"
+
+                        android:textSize="@dimen/forteen_sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.1"
+                        android:fontFamily="@font/amethysta"
+                        android:text="@string/status"
+                        android:textColor="@color/black_color"
+                        android:paddingRight="@dimen/ten_dp"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_type"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.9"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type"
+                        android:textColor="@color/black_color"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.1"
+                        android:fontFamily="@font/amethysta"
+                        android:textColor="@color/black_color"
+                        android:text="@string/date"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_duration"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.9"
+                        android:layout_height="wrap_content"
+                        android:text="@string/duration"
+                        android:textColor="@color/black_color"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:fontFamily="@font/amethysta"
+                        android:textColor="@color/black_color"
+                        android:text="@string/total_question"
+                        android:textSize="@dimen/fifteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_toQues"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/duration"
+                        android:textColor="@color/black_color"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:padding="@dimen/four_dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amethysta"
+                        android:text="@string/score"
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_marks"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/marks"
+                        android:textColor="@color/black_color"
+                        android:layout_weight="1.9"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/zero_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:fontFamily="@font/amethysta"
+                        android:text="@string/attempts"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textColor="@color/black_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_attempts"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:maxLines="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/attempts"
+                        android:textColor="@color/black_color"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:padding="@dimen/four_dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/zero_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/amethysta"
+                        android:text="Rank"
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/sixteen_sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/row_analysis_rank"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.8"
+                        android:layout_height="wrap_content"
+                        android:text="0.0"
+                        android:textColor="@color/black_color"
+                        android:fontFamily="@font/amethysta"
+                        android:textSize="@dimen/sixteen_sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+   </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="@dimen/eighty_dp"
+        android:layout_height="@dimen/eighty_dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/relay_progress"
+        android:background="@drawable/circle_accu"
+android:layout_marginBottom="@dimen/six_dp"
+        android:visibility="visible"
+        android:backgroundTint="@color/theme_purple"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white_color"
+    android:layout_centerInParent="true"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300"
+            android:textSize="@dimen/sixteen_sp"
+
+            android:textColor="@color/pink_A700"
+            android:textStyle="bold"
+            android:fontFamily="@font/amethysta"
+            android:layout_centerInParent="true"
+            />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/sixteen_sp"
+        android:layout_height="@dimen/sixteen_sp"
+
+       android:padding="@dimen/two_dp"
+        android:textStyle="bold"
+        android:src="@drawable/discount"
+        android:layout_centerInParent="true"
+        />
+
+</LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

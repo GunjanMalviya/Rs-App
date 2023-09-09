@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_parent"
+    android:background="@drawable/splash_blue_yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginBottom="@dimen/five_dp"
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:layout_above="@id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/RippleStyleWhite"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/five_dp"
+        android:layout_marginStart="@dimen/thirty_sp"
+        android:layout_marginEnd="@dimen/thirty_sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/one_fifty_dp"
+            android:layout_height="@dimen/forty_four_dp"
+            android:background="@drawable/shape_rounded_corners"
+            android:backgroundTint="@color/yellow_700"
+            android:gravity="center"
+            android:text="Next"
+            android:textSize="@dimen/twenty_two_sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/white_color" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</RelativeLayout>
