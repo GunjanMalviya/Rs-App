@@ -151,10 +151,10 @@
             android:name=".Activity.HomePdfNotesCategory"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
+        <!--<activity
             android:name=".Activity.HomeNotesPdf"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" />-->
         <activity
             android:name=".Activity.TopicQuizIndividual"
             android:exported="false"

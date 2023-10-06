@@ -96,6 +96,7 @@
            </LinearLayout>
 
            <Button
+              android:id="@+id/btn_buy_now"
                android:layout_width="0dp"
                android:layout_height="45dp"
                android:layout_gravity="center_vertical"

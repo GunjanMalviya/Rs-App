@@ -102,7 +102,6 @@ public class Syllabus_Single extends Fragment implements SelectedCourse {
                     if (jsonObject.length() > 0) {
                         for (int i = 0; i < jsonObject.length(); i++) {
                             JSONObject jsonObject1 = jsonObject.getJSONObject(i);
-                            Log.d("getAllSyllabusDataavaa", jsonObject1.toString());
                             String SubjectId = jsonObject1.getString("SubjectId");
                             String CourseId = jsonObject1.getString("CourseId");
                             String CategoryId = jsonObject1.getString("CategoryId");
@@ -117,7 +116,7 @@ public class Syllabus_Single extends Fragment implements SelectedCourse {
                             // getExamCategoryAdapter.notifyDataSetChanged();
                         }
                     } else {
-                        // Toast.makeText(context, "No Data Found !!", Toast.LENGTH_SHORT).show();
+                         Toast.makeText(context, "No Data Found !!", Toast.LENGTH_SHORT).show();
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();

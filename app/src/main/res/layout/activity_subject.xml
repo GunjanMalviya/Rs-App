@@ -55,6 +55,7 @@
 
     </androidx.cardview.widget.CardView>
 
+<!--
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/seventy_dp"
@@ -99,12 +100,12 @@
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
+-->
 
-    <!--<androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_syl"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_subjects"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/ten_dp"
-        android:layout_marginTop="@dimen/ten_dp" />-->
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/five_dp"/>
 
 </LinearLayout>

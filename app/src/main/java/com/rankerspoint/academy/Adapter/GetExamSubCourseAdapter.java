@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.rankerspoint.academy.Activity.MultiTabSyllabus;
 import com.rankerspoint.academy.BaseUrl.BaseUrl;
 import com.rankerspoint.academy.Activity.SingleCourseDetails;
 import com.rankerspoint.academy.Model.GetSubCourseModel;
@@ -58,7 +59,7 @@ public class GetExamSubCourseAdapter extends RecyclerView.Adapter<GetExamSubCour
         holder.card_all_Course.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, SingleCourseDetails.class);
+                Intent intent = new Intent(context, MultiTabSyllabus.class);
                 intent.putExtra("CAT_ID", getPreEaxmModel.getCategoryId());
                 intent.putExtra("COURSE_ID", getPreEaxmModel.getCourseId().toString());
                 context.startActivity(intent);

@@ -3,43 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/white_color"
+    android:layout_height="@dimen/seventy_dp"
+    android:layout_margin="@dimen/five_dp"
     android:elevation="@dimen/ten_dp"
-    app:cardCornerRadius="@dimen/ten_dp"
+    app:cardCornerRadius="@dimen/five_dp"
     app:cardElevation="@dimen/ten_dp">
 
 
-   <RelativeLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
-       <TextView
-           android:id="@+id/sno"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:fontFamily="@font/opensans_regular"
-           android:textColor="@color/black"
-           android:textSize="@dimen/sixteen_sp"
-           android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_margin="@dimen/ten_dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
 
-       <TextView
-           android:id="@+id/pNAme"
-           android:layout_width="0dp"
-           android:layout_height="wrap_content"
-           android:layout_weight="4.0"
-           android:fontFamily="@font/opensans_regular"
-           android:gravity="center|left"
-           android:text="Product Name"
-           android:textColor="@color/black_color"
-           android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/forteen_sp"
+            android:text="Basic Concept Building"
+            android:textStyle="bold" />
 
-       <ImageView
-           android:layout_width="0dp"
-           android:layout_height="@dimen/thirty_sp"
-           android:layout_gravity="right"
-           android:layout_weight="0.5"
-           android:src="@drawable/ic_arrowright" />
-   </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_sub_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:text="8 Videos"
+            android:layout_below="@id/tv_course"
+            android:textColor="@color/black_dark"
+            android:textSize="@dimen/twelve_sp" />
+
+        <ImageView
+            android:layout_width="@dimen/thirty_sp"
+            android:layout_height="@dimen/thirty_sp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrowright" />
+    </RelativeLayout>
 
 
 </androidx.cardview.widget.CardView>

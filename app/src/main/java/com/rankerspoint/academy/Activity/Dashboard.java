@@ -157,7 +157,7 @@ public class Dashboard extends AppCompatActivity {
         });
         View headerview = navigationView.getHeaderView(0);
 
-        LinearLayout nav_prof=(LinearLayout)headerview.findViewById(R.id.nav_prof);
+//        LinearLayout nav_prof=(LinearLayout)headerview.findViewById(R.id.nav_prof);
         TextView txt_userNm=(TextView) headerview.findViewById(R.id.txt_userNm);
         SharedPreferences preferences = getApplicationContext().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
         userId = preferences.getString("user_id", "");
@@ -176,14 +176,14 @@ public class Dashboard extends AppCompatActivity {
             navigation.setSelectedItemId(R.id.navigation_notifications123);
             loadFragment(new CourseFragment());
         }
-        nav_prof.setOnClickListener(new View.OnClickListener() {
+        /*nav_prof.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Dashboard.this,YourProfile.class);
                 startActivity(intent);
                 drawer.closeDrawers();
             }
-        });
+        });*/
         preExamCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

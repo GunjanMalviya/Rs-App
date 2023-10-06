@@ -9,11 +9,13 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -40,6 +42,7 @@ public class MultiTabSyllabus extends AppCompatActivity {
     private String catId;
     private boolean isFromContent = false;
     private CardView buyNow;
+    private Button btnBuy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,7 @@ public class MultiTabSyllabus extends AppCompatActivity {
         courseid = preferences.getString("CourseId", "CourseId");
         catId = getIntent().getStringExtra("CAT_ID");
         Name = preferences.getString("Name", "Name");
-        Log.d("CourseIdNAME", courseid);
+        btnBuy = findViewById(R.id.btn_buy_now);
         buyNow = findViewById(R.id.buy_now);
         //toolbar
         toolbar = findViewById(R.id.toolbar);
@@ -70,6 +73,13 @@ public class MultiTabSyllabus extends AppCompatActivity {
             }
         });
         initComponent();
+        btnBuy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), PaymentCheckOut.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initComponent() {
@@ -92,9 +102,9 @@ public class MultiTabSyllabus extends AppCompatActivity {
             tv_toolbar_title.setText("All Content");
             SectionsPagerAdapter adapter = new SectionsPagerAdapter(getSupportFragmentManager());
             adapter.addFragment(RecentLiveVideo.newInstance(), "Lectures");
-            adapter.addFragment(Syllabus_Single.newInstance(), "Notes");
-            adapter.addFragment(LiveClassFragment.newInstance(catId, courseid), "DPP");
-            adapter.addFragment(ReportCard_Single.newInstance(), "DPP PDF");
+            adapter.addFragment(HomeNotesPdf.newInstance(), "Notes");
+//            adapter.addFragment(LiveClassFragment.newInstance(catId, courseid), "DPP");
+            adapter.addFragment(ReportCard_Single.newInstance(), "Assignment");
             adapter.addFragment(Syllabus_Single.newInstance(), "DPP VIDEOS");
             viewPager.setAdapter(adapter);
         } else {

@@ -83,9 +83,9 @@
     <color name="deep_purple_A400">#651FFF</color>
     <color name="deep_purple_A700">#6200EA</color>
 
-    <color name="theme_purple">#3b8ba2</color>
-    <color name="theme_pink">#054e79</color>
-    <color name="theme_centre_pink">#1d78a5</color>
+    <color name="theme_purple">#094EC7</color>
+    <color name="theme_pink">#3082E1</color>
+    <color name="theme_centre_pink">#0F59D3</color>
 
     <color name="light_blue_50">#A5D6A7</color>
     <color name="light_blue_100">#B3E5FC</color>

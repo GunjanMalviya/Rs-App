@@ -62,7 +62,7 @@ public class GetHomeNotesPdfAdapter extends RecyclerView.Adapter<GetHomeNotesPdf
         //  Picasso.with(context).load(BANN_IMG_URL + getPreEaxmModel.getPic()).into(holder.img);
         // Log.d("imageurl:--",BANN_IMG_URL + getPreEaxmModel.getPic());
         holder.txt_pdf.setText(getPreEaxmModel.getName());
-        if (getPreEaxmModel.getFeeStatus().equals("Free"))
+        /*if (getPreEaxmModel.getFeeStatus().equals("Free"))
         {
             holder.txt_status.setText("Free");
             holder.txt_status.setTextColor(context.getResources().getColor(R.color.red_500));
@@ -70,7 +70,7 @@ public class GetHomeNotesPdfAdapter extends RecyclerView.Adapter<GetHomeNotesPdf
         {
             holder.txt_status.setText("***");
             holder.txt_status.setLetterSpacing(0.2f);
-        }
+        }*/
         SharedPreferences preferences = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
         String userId = preferences.getString("user_id", "");
         holder.llout_pdf.setOnClickListener(new View.OnClickListener() {

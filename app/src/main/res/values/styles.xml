@@ -76,6 +76,11 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="NavigationTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="colorPrimary">@color/theme_purple</item>
+        <item name="android:textColorSecondary">@color/theme_purple</item>
+    </style>
+    <style name="NavigationThemeInActive" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/theme_purple</item>
         <item name="android:textColorSecondary">@color/theme_purple</item>
     </style>

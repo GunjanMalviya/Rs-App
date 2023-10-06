@@ -49,26 +49,27 @@ public class SubjectActivity extends AppCompatActivity {
         setContentView(R.layout.activity_subject);
         Tools.setSystemBarColor(this, R.color.colorPrimaryDark);
         Tools.setSystemBarLight(this);
+        rvSelectedCourse =findViewById(R.id.rv_subjects);
         cardAllContent = findViewById(R.id.all_content);
         cardAllContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(SubjectActivity.this, MultiTabSyllabus.class);
+               /* Intent intent=new Intent(SubjectActivity.this, MultiTabSyllabus.class);
                 intent.putExtra("fromContent", true);
-                startActivity(intent);
+                startActivity(intent);*/
             }
         });
-//        rvSelectedCourse.setLayoutManager(new LinearLayoutManager(SubjectActivity.this));
+        rvSelectedCourse.setLayoutManager(new LinearLayoutManager(SubjectActivity.this));
         SharedPreferences preferences = getApplicationContext().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
         String sId = preferences.getString("subjectId", "");
         String Name = preferences.getString("Name", "Name");
         tv_toolbar_title = findViewById(R.id.tv_toolbar_title);
         tv_toolbar_title.setText(Name);
         setSupportActionBar(toolbar);
-//        getAllChapterData(sId);
+        getAllChapterData(sId);
     }
 
-    /*private void getAllChapterData(String subjectId) {
+    private void getAllChapterData(String subjectId) {
         String SUBCATALL = BaseUrl.GETALLCHAPTERWISE + "/" + subjectId.trim();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, SUBCATALL, new Response.Listener<String>() {
             @Override
@@ -89,7 +90,7 @@ public class SubjectActivity extends AppCompatActivity {
                             String Details = jsonObject1.getString("Details");
                             GetAllSyllabusChapModel getAllSyllabusCatModel = new GetAllSyllabusChapModel(SubjectId, ChapterId, CourseId, CategoryId, SubCategoryId, Name, Details);
                             getAllSyllabusChapModels.add(getAllSyllabusCatModel);
-                            SingleChapterCatFragAdapter singleChapterCatAdapter = new SingleChapterCatFragAdapter(getAllSyllabusChapModels, context);
+                            SingleChapterCatFragAdapter singleChapterCatAdapter = new SingleChapterCatFragAdapter(getAllSyllabusChapModels, SubjectActivity.this);
                             rvSelectedCourse.setAdapter(singleChapterCatAdapter);
                             singleChapterCatAdapter.notifyDataSetChanged();
                         }
@@ -116,5 +117,5 @@ public class SubjectActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(SubjectActivity.this);
         requestQueue.getCache().clear();
         requestQueue.add(stringRequest);
-    }*/
+    }
 }

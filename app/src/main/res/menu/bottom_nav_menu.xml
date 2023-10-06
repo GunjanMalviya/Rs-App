@@ -3,8 +3,8 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home"
-        android:title="Home" />
+        android:icon="@drawable/ic_study"
+        android:title="Study" />
 
     <item
         android:id="@+id/navigation_dashboard"
@@ -19,12 +19,13 @@
         android:title="Student" />
     <item
         android:id="@+id/navigation_notifications123"
-        android:icon="@drawable/ic_course"
-        android:title="Batches" />
+        android:icon="@drawable/ic_batches"
+        android:title="Batches"
+        />
     <item
         android:id="@+id/navigation_notifications12"
         android:icon="@drawable/ic_test"
-        android:title="Test Series" />
+        android:title="Test" />
 
 
 

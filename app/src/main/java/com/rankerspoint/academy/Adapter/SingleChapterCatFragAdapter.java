@@ -10,8 +10,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.rankerspoint.academy.Activity.MultiTabSyllabus;
+import com.rankerspoint.academy.Activity.SubjectActivity;
 import com.rankerspoint.academy.Activity.SyllabusSingle;
 import com.rankerspoint.academy.Model.GetAllSyllabusChapModel;
 import com.rankerspoint.academy.R;
@@ -44,18 +47,23 @@ public class SingleChapterCatFragAdapter extends RecyclerView.Adapter<SingleChap
         GetAllSyllabusChapModel cc = getAllSyllabusChapModels.get(position);
 //        holder.sno.setText(getAllSyllabusChapModels.get(position).+".");
 
-        holder.prodNAme.setText(cc.getName());
+        holder.tvCourse.setText(cc.getName());
+        holder.tvSubCourse.setText(cc.getDetails());
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 SharedPreferences sharedPref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putString("CAT_ID", cc.getCategoryId());
+                editor.putString("COURSE_ID", cc.getCourseId());
                 editor.putString("ChapterId", cc.getChapterId());
                 editor.putString("SName", cc.getName());
                 editor.putString("Sno", String.valueOf(position+1));
                 editor.apply();
-                Intent intent=new Intent(context, SyllabusSingle.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+                Intent intent=new Intent(context, MultiTabSyllabus.class);
+                intent.putExtra("fromContent", true);
+//                Intent intent=new Intent(context, SyllabusSingle.class);
+//                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                 context.startActivity(intent);
 
             }
@@ -68,18 +76,14 @@ public class SingleChapterCatFragAdapter extends RecyclerView.Adapter<SingleChap
         return getAllSyllabusChapModels.size();
     }
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView prodNAme, sno;
-        ImageView image, pimage, image1;
-        boolean mines = true;
-
-
-        LinearLayout linearLayout;
+        public TextView tvCourse, tvSubCourse;
+        CardView linearLayout;
 
 
         public MyViewHolder(View view) {
             super(view);
-            prodNAme = view.findViewById(R.id.pNAme);
-            sno = view.findViewById(R.id.sno);
+            tvCourse = view.findViewById(R.id.tv_course);
+            tvSubCourse = view.findViewById(R.id.tv_sub_course);
             linearLayout = view.findViewById(R.id.linearLayout);
         }
     }

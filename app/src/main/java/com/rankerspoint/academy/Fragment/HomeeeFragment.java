@@ -22,8 +22,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.rankerspoint.academy.Activity.HomeNotesPdf;
@@ -97,6 +100,28 @@ public class HomeeeFragment extends Fragment {
         // Inflate the layout for this fragment
 
         view= inflater.inflate(R.layout.fragment_homeee, container, false);
+        Spinner spinner = (Spinner) view.findViewById(R.id.class_spinner);
+
+        // Spinner click listener
+//        spinner.setOnItemSelectedListener(getActivity().getApplicationContext());
+
+        // Spinner Drop down elements
+        List<String> categories = new ArrayList<String>();
+        categories.add("Scheduled Class");
+        categories.add("Today's Class");
+        categories.add("Scheduled Class");
+        categories.add("Today's Class");
+        categories.add("Scheduled Class");
+        categories.add("Today's Class");
+
+        // Creating adapter for spinner
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(container.getContext(), android.R.layout.simple_spinner_item, categories);
+
+        // Drop down layout style - list view with radio button
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        spinner.setAdapter(dataAdapter);
         /*thiscontext=container.getContext();
         llaout_three=view.findViewById(R.id.llaout_three);
         card_doubts=view.findViewById(R.id.card_doubts);

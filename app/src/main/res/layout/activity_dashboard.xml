@@ -24,11 +24,12 @@
             android:id="@+id/nav_view12"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-
             app:itemIconSize="@dimen/twenty_five_sp"
             app:labelVisibilityMode="labeled"
             app:itemRippleColor="@color/theme_purple"
-            android:theme="@style/NavigationTheme"
+            android:theme="@style/NavigationThemeInActive"
+            app:itemTextAppearanceInactive="@style/NavigationThemeInActive"
+            app:itemTextAppearanceActive="@style/NavigationTheme"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav_menu" />
 
@@ -41,18 +42,16 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/white_color"
-
         android:fitsSystemWindows="true"
         android:scrollbars="none"
         android:theme="@style/DrawerStyle"
         app:headerLayout="@layout/nav_header_main"
-        app:itemIconPadding="20dp"
-
+        app:itemIconPadding="10dp"
         app:itemIconSize="@dimen/twenty_five_sp"
-        app:itemIconTint="@color/theme_purple"
+        app:itemIconTint="@color/black_dark"
 
         app:itemTextAppearance="@style/TextAppearance.MaterialComponents.Body2"
-        app:itemTextColor="@color/black_color"
+        app:itemTextColor="@color/theme_pink"
 
         app:menu="@menu/activity_main_drawer">
 

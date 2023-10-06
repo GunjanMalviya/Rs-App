@@ -72,7 +72,7 @@ public class RecentLiveVideo extends Fragment {
         SharedPreferences preferences = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
 
         user_id = preferences.getString("user_id", "");
-        categoryid=preferences.getString("CAT_ID","");
+        categoryid=preferences.getString("COURSE_ID","");
         Log.d("userid_pay",user_id+"categoryid"+categoryid);
 
         recyler_notes.setLayoutManager(new GridLayoutManager(context,1));
@@ -82,7 +82,7 @@ public class RecentLiveVideo extends Fragment {
     }
     private void getAllSyllabusData() {
         getHomeCategorymodels.clear();
-        String strUrl= BaseUrl.GETALLLIVECLASSESCATE+"/"+categoryid;
+        String strUrl= BaseUrl.GETALLLIVECLASSESBYCOURSE+"/"+categoryid;
         StringRequest stringRequest = new StringRequest(Request.Method.GET, strUrl, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {

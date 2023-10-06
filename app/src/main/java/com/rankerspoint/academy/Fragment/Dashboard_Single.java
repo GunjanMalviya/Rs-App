@@ -4,6 +4,8 @@ import static com.rankerspoint.academy.BaseUrl.BaseUrl.BANN_IMG_URL;
 import static com.rankerspoint.academy.BaseUrl.BaseUrl.GETALLFREEQUIZDETAILSBYCOURSE;
 import static com.rankerspoint.academy.BaseUrl.BaseUrl.GETALLFREEVIDEODETAILSBYCOURSE;
 import static com.rankerspoint.academy.BaseUrl.BaseUrl.GETALLPAYMENTBYUSERANDTYPE;
+import static com.rankerspoint.academy.BaseUrl.BaseUrl.GETALLVIDEOBYCATEGORY;
+import static com.rankerspoint.academy.BaseUrl.BaseUrl.GETSINGLECOURSE;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -11,6 +13,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -25,10 +28,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.rankerspoint.academy.Activity.ExoYoutPlayer;
 import com.rankerspoint.academy.Activity.PaymentCheckOut;
 import com.rankerspoint.academy.Activity.SingleCourseDetails;
 import com.rankerspoint.academy.Activity.ViewAllFeeQuizListDashboard;
@@ -52,46 +57,73 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class Dashboard_Single extends Fragment {
-    RecyclerView recycler_free_video_home,recycler_quiz_free;
+    RecyclerView recycler_free_video_home, recycler_quiz_free;
     ProgressDialog progressDialog;
-    TextView skip_free,skip,txt_dailyQuiz,txt_free_video,txtRegEndDate,txtLAnguage,txtTeacherNm,txtPrice, txtlanguageetx;
-    LinearLayout lbl_skip,syllbus_llt,lbl_skip_new;
+    TextView skip_free, skip, txt_dailyQuiz, txt_free_video, txtRegEndDate, txtLAnguage, txtTeacherNm, txtPrice, txtlanguageetx;
+    LinearLayout lbl_skip, syllbus_llt, lbl_skip_new;
     private Runnable runnable = null;
     private Handler handler = new Handler();
-    String courseid="",status="",userId="",Pic="",Name="",Price="",datae="",Langauge="",Teachers="",FreeTrail="";
+    String courseid = "", status = "", userId = "", Pic = "", Name = "", Price = "", datae = "", Langauge = "", Teachers = "", FreeTrail = "";
     ImageView imageLogo;
+    private String VideoLink1 = "";
+    private SharedPreferences preferences;
+
     public Dashboard_Single() {
     }
+
     public static Dashboard_Single newInstance() {
         Dashboard_Single fragment = new Dashboard_Single();
         return fragment;
     }
+
     DashboardFreeVideoAdapter freeLiveClassAdapter;
     DashboardFreeQuizAdapter dashboardFreeQuizAdapter;
-    List<DashBoardFreeVideoModel> getAllSyllabusCatModels=new ArrayList<>();
-    List<DashBoardFreeQuizModel> getDashboardFreeModels=new ArrayList<>();
+    List<DashBoardFreeVideoModel> getAllSyllabusCatModels = new ArrayList<>();
+    List<DashBoardFreeQuizModel> getDashboardFreeModels = new ArrayList<>();
     Context context;
     View view;
-    TextView txt_viewAll_Quiz,txt_vieaAll_Free;
+    TextView tvDuration, tvSubjects;
     int time = 3000;
     Timer timer;
     LinearLayoutManager linearLayoutManager1;
+    private CardView cardVideo;
+    private ImageView ivBatchThumbnail;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view= inflater.inflate(R.layout.fragment_dashboard__single, container, false);
-        context=container.getContext();
-        NestedScrollView scrollView = (NestedScrollView) view.findViewById (R.id.nest_scrollview);
-        scrollView.setFillViewport (true);
+        view = inflater.inflate(R.layout.fragment_dashboard__single, container, false);
+        context = container.getContext();
+        tvSubjects = view.findViewById(R.id.tv_subject);
+        tvDuration = view.findViewById(R.id.tv_duration);
+        cardVideo = view.findViewById(R.id.card_video);
+        ivBatchThumbnail = view.findViewById(R.id.iv_batch_video);
+        preferences = getActivity().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+        courseid = preferences.getString("CourseId", "");
+        getFreeLiveClasses(courseid);
+        getSingleCourse("");
+        cardVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ExoYoutPlayer.class);
+                intent.putExtra("VIDEOURL", VideoLink1);
+                context.startActivity(intent);
+            }
+        });
         /*recycler_free_video_home=view.findViewById(R.id.recycler_free_video_home);
         recycler_quiz_free=view.findViewById(R.id.recycler_quiz_free);
         txt_viewAll_Quiz=view.findViewById(R.id.txt_viewAll_Quiz);
@@ -218,17 +250,17 @@ public class Dashboard_Single extends Fragment {
 //    private void initComponent() {
 //        SharedPreferences preferences = getActivity().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
 //        courseid = preferences.getString("CourseId", "CourseId");
-
 //        Log.d("CourseId",courseid);
 //
 ////        getFreeLiveClasses(courseid);
 //        getFreeQuizDashboard(courseid);
 //    }
 
-/*    private void getFreeLiveClasses(String categoryid) {
+    private void getFreeLiveClasses(String categoryid) {
         getAllSyllabusCatModels.clear();
-        // String SUBCATALL=GETALLVIDEOBYCATEGORY+"/"+categoryid.trim();
-        String SUBCATALL=GETALLFREEVIDEODETAILSBYCOURSE+"/"+categoryid.trim();;
+//         String SUBCATALL=GETALLVIDEOBYCATEGORY+"/"+categoryid.trim();
+        String SUBCATALL = GETALLFREEVIDEODETAILSBYCOURSE + "/" + categoryid.trim();
+        ;
         StringRequest stringRequest = new StringRequest(Request.Method.GET, SUBCATALL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -236,27 +268,24 @@ public class Dashboard_Single extends Fragment {
                 try {
                     getAllSyllabusCatModels.clear();
                     JSONArray jsonObject = new JSONArray(response);
-
-                    Log.d("videofree",jsonObject.toString());
-                    if (jsonObject.length()>0) {
-                        recycler_free_video_home.setVisibility(View.VISIBLE);
-                        txt_vieaAll_Free.setVisibility(View.VISIBLE);
-                        txt_free_video.setVisibility(View.VISIBLE);
-                        for (int i = 0; i < jsonObject.length(); i++) {
+                    if (jsonObject.length() > 0) {
+                        for (int i = 0; i < 1; i++) {
                             JSONObject jsonObject1 = jsonObject.getJSONObject(i);
-                            Log.d("getfreelive_abc", jsonObject1.toString());
                             String DCRecordId = jsonObject1.getString("DCRecordId");
                             String DCCourseId = jsonObject1.getString("DCCourseId");
                             String DCCourseName = jsonObject1.getString("DCCourseName");
-
                             String DCContentType = jsonObject1.getString("DCContentType");
                             String Name = jsonObject1.getString("Name");
                             String Details = jsonObject1.getString("Details");
-                            String Pic = jsonObject1.getString("Pic");
-                            String VideoLink1 = jsonObject1.getString("VideoLink1");
+                            Pic = jsonObject1.getString("Pic");
+                            Picasso.with(context).load(BaseUrl.BANN_IMG_URL + Pic).into(ivBatchThumbnail);
+                            VideoLink1 = jsonObject1.getString("VideoLink1");
                             String FeeStatus = jsonObject1.getString("FeeStatus");
                             String Type = jsonObject1.getString("Type");
-
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("FeeStatusMentor", FeeStatus);
+                            editor.apply();
+/*
 
 
 
@@ -264,51 +293,28 @@ public class Dashboard_Single extends Fragment {
                             getAllSyllabusCatModels.add(freeVideoModel);
 
                             // GetExamCategoryAdapter getExamCategoryAdapter = new GetExamCategoryAdapter(PrePareExam.this, getPreEaxmModels);
-                            // getExamCategoryAdapter.notifyDataSetChanged();
+                            // getExamCategoryAdapter.notifyDataSetChanged();*/
                         }
-                        freeLiveClassAdapter=new DashboardFreeVideoAdapter(context,getAllSyllabusCatModels);
+                        /*freeLiveClassAdapter=new DashboardFreeVideoAdapter(context,getAllSyllabusCatModels);
                         recycler_free_video_home.setAdapter(freeLiveClassAdapter);
-                        freeLiveClassAdapter.notifyDataSetChanged();
-
-
-                        // displaying selected image first
-                        timer.schedule(new TimerTask() {
-
-                            @Override
-                            public void run() {
-
-                                if (linearLayoutManager1.findLastCompletelyVisibleItemPosition() < (freeLiveClassAdapter.getItemCount() - 1)) {
-
-                                    linearLayoutManager1.smoothScrollToPosition(recycler_free_video_home, new RecyclerView.State(), linearLayoutManager1.findLastCompletelyVisibleItemPosition() + 1);
-                                }
-
-                                else if (linearLayoutManager1.findLastCompletelyVisibleItemPosition() == (freeLiveClassAdapter.getItemCount() - 1)) {
-
-                                    linearLayoutManager1.smoothScrollToPosition(recycler_free_video_home, new RecyclerView.State(), 0);
-                                }
-                            }
-                        }, 0, time);
-                    }else
-                    {
+                        freeLiveClassAdapter.notifyDataSetChanged();*/
+                    } else {
                         //  Toast.makeText(context, "No Data Found !!", Toast.LENGTH_SHORT).show();
                     }
-
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
         }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 HashMap<String, String> params = new HashMap<>();
-
                 return params;
             }
         };
@@ -316,20 +322,22 @@ public class Dashboard_Single extends Fragment {
         requestQueue.getCache().clear();
         requestQueue.add(stringRequest);
     }
+
+/*
     private void getFreeQuizDashboard(String categoryid) {
         getDashboardFreeModels.clear();
         // String SUBCATALL=GETALLVIDEOBYCATEGORY+"/"+categoryid.trim();
-        String SUBCATALL=GETALLFREEQUIZDETAILSBYCOURSE+"/"+categoryid.trim();;
+        String SUBCATALL = GETALLFREEQUIZDETAILSBYCOURSE + "/" + categoryid.trim();
+        ;
         StringRequest stringRequest = new StringRequest(Request.Method.GET, SUBCATALL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Log.d("getfreeQuiz", response);
                 try {
                     getDashboardFreeModels.clear();
-
                     JSONArray jsonObject = new JSONArray(response);
-                    Log.d("videofree",jsonObject.toString());
-                    if (jsonObject.length()>0) {
+                    Log.d("videofree", jsonObject.toString());
+                    if (jsonObject.length() > 0) {
                         txt_viewAll_Quiz.setVisibility(View.VISIBLE);
                         recycler_quiz_free.setVisibility(View.VISIBLE);
                         txt_dailyQuiz.setVisibility(View.VISIBLE);
@@ -339,7 +347,6 @@ public class Dashboard_Single extends Fragment {
                             String DCRecordId = jsonObject1.getString("DCRecordId");
                             String DCCourseId = jsonObject1.getString("DCCourseId");
                             String DCCourseName = jsonObject1.getString("DCCourseName");
-
                             String DCTopicId = jsonObject1.getString("DCTopicId");
                             String ExamId = jsonObject1.getString("ExamId");
                             String DCContentType = jsonObject1.getString("DCContentType");
@@ -349,28 +356,18 @@ public class Dashboard_Single extends Fragment {
                             String FeeStatus = jsonObject1.getString("FeeStatus");
                             String Pic = jsonObject1.getString("Pic");
                             String Description = jsonObject1.getString("Description");
-
-
-
-
-                            DashBoardFreeQuizModel freeVideoModel = new DashBoardFreeQuizModel(DCRecordId,DCCourseId,DCCourseName,DCTopicId,ExamId,DCContentType,CategoryId,Title,Duration+"",FeeStatus,Pic,Description);
+                            DashBoardFreeQuizModel freeVideoModel = new DashBoardFreeQuizModel(DCRecordId, DCCourseId, DCCourseName, DCTopicId, ExamId, DCContentType, CategoryId, Title, Duration + "", FeeStatus, Pic, Description);
                             getDashboardFreeModels.add(freeVideoModel);
-
                             // GetExamCategoryAdapter getExamCategoryAdapter = new GetExamCategoryAdapter(PrePareExam.this, getPreEaxmModels);
                             // getExamCategoryAdapter.notifyDataSetChanged();
                         }
-                        dashboardFreeQuizAdapter=new DashboardFreeQuizAdapter(context,getDashboardFreeModels);
+                        dashboardFreeQuizAdapter = new DashboardFreeQuizAdapter(context, getDashboardFreeModels);
                         recycler_quiz_free.setAdapter(dashboardFreeQuizAdapter);
                         dashboardFreeQuizAdapter.notifyDataSetChanged();
-
                         // displaying selected image first
-
-                    }else
-                    {
+                    } else {
                         // Toast.makeText(context, "No Data Found !!", Toast.LENGTH_SHORT).show();
                     }
-
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -385,29 +382,61 @@ public class Dashboard_Single extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 HashMap<String, String> params = new HashMap<>();
-
                 return params;
             }
         };
         RequestQueue requestQueue = Volley.newRequestQueue(context);
         requestQueue.getCache().clear();
         requestQueue.add(stringRequest);
-    }*/
-/*    private void getSingleCourse(String status) {
+    }
+*/
 
-        String SUBCATALL=GETSINGLECOURSE+"/"+courseid.trim();
+    private void getSingleCourse(String status) {
+        String SUBCATALL = GETSINGLECOURSE + "/" + courseid.trim();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, SUBCATALL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Log.d("Sub_Prod_detail", response);
                 try {
                     JSONArray jsonObject = new JSONArray(response);
-                    Log.d("preexam_sub",jsonObject.toString());
-
-                    if (jsonObject.length()>0) {
-
+                    JSONObject jsonObject1 = jsonObject.getJSONObject(0);
+                    String CourseId = jsonObject1.getString("CourseId");
+                    String CategoryId = jsonObject1.getString("CategoryId");
+                    String SubCategoryId = jsonObject1.getString("SubCategoryId");
+                    String Name = jsonObject1.getString("Name");
+                    String Details = jsonObject1.getString("Details");
+                    tvSubjects.setText(Details);
+                    String Pic = jsonObject1.getString("Pic");
+                    String Logo = jsonObject1.getString("Logo");
+                    String RegLastDate = jsonObject1.getString("RegLastDate");
+                    String datae = RegLastDate.substring(0, 10);
+                    String ExpiryDate = jsonObject1.getString("ExpiryDate");
+                    String FreeTrail = jsonObject1.getString("FreeTrail");
+                    String Price = jsonObject1.getString("Price");
+                    String Langauge = jsonObject1.getString("Langauge");
+                    String Teachers = jsonObject1.getString("Teachers");
+                    SharedPreferences sharedPref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putString("CourseId", courseid);
+                    editor.putString("CategoryId", CategoryId);
+                    editor.putString("SubCategoryId", SubCategoryId);
+                    editor.putString("Name", Name);
+                    editor.putString("PriceC", Price);
+                    editor.apply();
+                    try {
+                        DateFormat outputFormat = new SimpleDateFormat("dd MMM yyyy", Locale.US);
+                        DateFormat inputFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
+                        Date date = inputFormat.parse(RegLastDate);
+                        Date date1 = inputFormat.parse(ExpiryDate);
+                        String outputText = outputFormat.format(date);
+                        String outputText1 = outputFormat.format(date1);
+                        tvDuration.setText(outputText + " - " + outputText1);
+                    } catch (Exception e) {
+                        Log.d("RegLastDate Exception", e.toString());
+                    }
+//                    String dateTime = date.
+                   /* if (jsonObject.length() > 0) {
                         for (int i = 0; i < jsonObject.length(); i++) {
-
                             JSONObject jsonObject1 = jsonObject.getJSONObject(i);
                             Log.d("jsoonoobj", jsonObject1.toString());
                             String CourseId = jsonObject1.getString("CourseId");
@@ -418,15 +447,14 @@ public class Dashboard_Single extends Fragment {
                             String Pic = jsonObject1.getString("Pic");
                             String Logo = jsonObject1.getString("Logo");
                             String RegLastDate = jsonObject1.getString("RegLastDate");
-                            String datae=RegLastDate.substring(0,10);
-                            Log.d("datae",datae);
-
+                            String datae = RegLastDate.substring(0, 10);
+                            Log.d("datae", datae);
                             String ExpiryDate = jsonObject1.getString("ExpiryDate");
                             String FreeTrail = jsonObject1.getString("FreeTrail");
                             String Price = jsonObject1.getString("Price");
                             String Langauge = jsonObject1.getString("Langauge");
                             String Teachers = jsonObject1.getString("Teachers");
-                            Log.d("FreeTrail",FreeTrail);
+                            Log.d("FreeTrail", FreeTrail);
                             SharedPreferences sharedPref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor = sharedPref.edit();
                             editor.putString("CourseId", courseid);
@@ -434,7 +462,6 @@ public class Dashboard_Single extends Fragment {
                             editor.putString("SubCategoryId", SubCategoryId);
                             editor.putString("Name", Name);
                             editor.putString("PriceC", Price);
-
                             editor.apply();
                             if (FreeTrail.equals("Yes")) {
                                 lbl_skip_new.setVisibility(View.GONE);
@@ -443,16 +470,12 @@ public class Dashboard_Single extends Fragment {
                                 skip_free.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        Intent intent=new Intent(context, SingleCourseDetails.class);
-                                        intent.putExtra("COURSE_ID",courseid);
+                                        Intent intent = new Intent(context, SingleCourseDetails.class);
+                                        intent.putExtra("COURSE_ID", courseid);
                                         startActivity(intent);
                                     }
                                 });
-
-                            }
-                            else
-                            {
-
+                            } else {
                                 if (status.equals("True")) {
                                     lbl_skip_new.setVisibility(View.GONE);
                                     lbl_skip.setVisibility(View.GONE);
@@ -460,69 +483,53 @@ public class Dashboard_Single extends Fragment {
                                     skip_free.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
-                                            Intent intent=new Intent(context,SingleCourseDetails.class);
-                                            intent.putExtra("COURSE_ID",courseid);
+                                            Intent intent = new Intent(context, SingleCourseDetails.class);
+                                            intent.putExtra("COURSE_ID", courseid);
                                             startActivity(intent);
                                         }
                                     });
-                                }
-                                else {
+                                } else {
                                     skip_free.setText("Buy Now");
                                     skip_free.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
-                                            Intent intent=new Intent(context, PaymentCheckOut.class);
-
-
+                                            Intent intent = new Intent(context, PaymentCheckOut.class);
                                             startActivity(intent);
                                         }
                                     });
                                 }
-
                             }
-
-                            txtRegEndDate.setText("Last date:-"+datae);
-
+                            txtRegEndDate.setText("Last date:-" + datae);
                             txtLAnguage.setText(Langauge);
-
-                            txtTeacherNm.setText("By:-"+Teachers);
-
-                            txtPrice.setText("Price:-"+Price);
-
+                            txtTeacherNm.setText("By:-" + Teachers);
+                            txtPrice.setText("Price:-" + Price);
                             txtlanguageetx.setText(Langauge);
                             Picasso.with(context).load(BANN_IMG_URL + Pic).into(imageLogo);
-
-
                         }
-                    }else
-                    {
-
+                    } else {
                         // Toast.makeText(SingleCourseDetails.this, "No Data Found !!", Toast.LENGTH_SHORT).show();
-                    }
-
-
+                    }*/
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
         }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 HashMap<String, String> params = new HashMap<>();
-
                 return params;
             }
         };
         RequestQueue requestQueue = Volley.newRequestQueue(context);
         requestQueue.getCache().clear();
         requestQueue.add(stringRequest);
-    }*/
+    }
 
    /* public void getAllPaid(JSONObject jsonObject){
         RequestQueue queue = Volley.newRequestQueue(context);
@@ -572,5 +579,4 @@ public class Dashboard_Single extends Fragment {
 
 
     }*/
-
 }

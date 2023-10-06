@@ -59,7 +59,8 @@ public class PaymentCheckOut extends AppCompatActivity implements PaymentResultW
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_check_out);
         Tools.setSystemBarColor(this, R.color.colorPrimaryDark);
-        Tools.setSystemBarLight(this);  txt_amount = findViewById(R.id.txt_amount);
+        Tools.setSystemBarLight(this);
+        txt_amount = findViewById(R.id.txt_amount);
         txt_course = findViewById(R.id.txt_course);
         btn_pay = findViewById(R.id.btn_pay);
         toolbar = findViewById(R.id.toolbar);

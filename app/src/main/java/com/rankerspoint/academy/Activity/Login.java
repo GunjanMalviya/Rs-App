@@ -1,7 +1,18 @@
 package com.rankerspoint.academy.Activity;
 
+import static com.google.firebase.messaging.Constants.TAG;
+
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.IntentSenderRequest;
+import androidx.activity.result.contract.ActivityResultContract;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
@@ -15,6 +26,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Point;
 import android.graphics.PorterDuff;
+import android.net.wifi.hotspot2.pps.Credential;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
@@ -36,6 +48,12 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.auth.api.credentials.Credentials;
+import com.google.android.gms.auth.api.credentials.CredentialsApi;
+import com.google.android.gms.auth.api.credentials.HintRequest;
+import com.google.android.gms.auth.api.identity.GetPhoneNumberHintIntentRequest;
+import com.google.android.gms.auth.api.identity.Identity;
+import com.google.android.gms.common.api.ApiException;
 import com.rankerspoint.academy.BaseUrl.BaseUrl;
 import com.rankerspoint.academy.Model.ImageDemo;
 import com.rankerspoint.academy.Model.LoginModel;
@@ -57,7 +75,11 @@ import java.util.Map;
 import java.util.Random;
 import java.util.StringTokenizer;
 
-public class Login  extends AppCompatActivity {
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.content.IntentSender;
+
+public class Login extends AppCompatActivity {
     private Button btnGo;
     private EditText edtNumber;
     private ProgressDialog progressDialog;
@@ -74,6 +96,7 @@ public class Login  extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Tools.setSystemBarColor(this, R.color.colorPrimaryDark);
         Tools.setSystemBarLight(this);
+        getPhoneNumbers();
         progressDialog = new ProgressDialog(this, R.style.MyAlertDialogStyle);
         progressDialog.setMessage("Loading...");
         progressDialog.setCancelable(false);
@@ -116,6 +139,38 @@ public class Login  extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    private void getPhoneNumbers() {
+        GetPhoneNumberHintIntentRequest request = GetPhoneNumberHintIntentRequest.builder().build();
+
+        ActivityResultLauncher<IntentSenderRequest> phoneNumberHintIntentResultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartIntentSenderForResult(),
+                result -> {
+                    try {
+                        String phoneNumber = Identity.getSignInClient(Login.this).getPhoneNumberFromIntent(result.getData());
+                        Log.d(TAG, "Launching the PendingIntent"+ phoneNumber);
+                        edtNumber.setText(phoneNumber.substring(5));
+//                        String phoneNumber = Identity.getSignInClient(Login.this).getPhoneNumberFromIntent(result.getData());
+//                        edtNumber.setText(phoneNumber);
+                    } catch (ApiException e) {
+                        edtNumber.setText("");
+                    }
+                });
+        Identity.getSignInClient(this)
+                .getPhoneNumberHintIntent(request)
+                .addOnSuccessListener(result  -> {
+                    try {
+                        IntentSenderRequest intentSenderRequest = new IntentSenderRequest.Builder(result.getIntentSender()).build();
+                        phoneNumberHintIntentResultLauncher.launch(intentSenderRequest);
+                    } catch (Exception e) {
+                        Log.e(TAG, "Launching the PendingIntent failed", e);
+                    }
+                })
+                .addOnFailureListener(e -> {
+                    Log.e(TAG, "Phone Number Hint failed", e);
+                });
+
     }
 
     public void showFeedbackDialog(Activity activity) {
@@ -220,8 +275,7 @@ public class Login  extends AppCompatActivity {
 
     public void registerUser() {
 //        String OTPMOBILE = "http://smsw.co.in/API/WebSMS/Http/v1.0a/index.php?username=abhiaw&password=686l2u-lAoa&sender=OTPSPM&to=" + mobileNo + "&message=%20Dear%20Student%20Your%20OTP%20is%20" + otp + ".%20spm infotech service &reqid=1&format={json|text}&pe_id= 1201161589219376932 &template_id= 1207164224346095185";
-        String OTPMOBILE = "http://bhashsms.com/api/sendmsg.php?user=MCORP&pass=123456&sender=RANKRZ&phone="+mobileNo+"&text="+otp+" is your otp for Pathan Paathan. Do not share it with anyone.&priority=ndnd&stype=normal";
-
+        String OTPMOBILE = "http://bhashsms.com/api/sendmsg.php?user=MCORP&pass=123456&sender=RANKRZ&phone=" + mobileNo + "&text=" + otp + " is your otp for Pathan Paathan. Do not share it with anyone.&priority=ndnd&stype=normal";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, OTPMOBILE.trim(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -255,7 +309,6 @@ public class Login  extends AppCompatActivity {
         requestQueue.getCache().clear();
         requestQueue.add(stringRequest);
     }
-
 
     private void getUserDetails() {
         //  getPreEaxmModels.clear();
@@ -302,6 +355,7 @@ public class Login  extends AppCompatActivity {
                             SharedPreferences.Editor editor = sharedPref.edit();
                             editor.putString("user_id", "");
                             editor.apply();
+//                            setDevicesIdReset();
                             Toast.makeText(Login.this, "Your User Id Already Login Other Device", Toast.LENGTH_SHORT).show();
                         }
                     } else {
